@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "LeechKEM: A Plain-LWE Key Encapsulation Mechanism with Leech-Lattice Quotient Decoding — Reproducibility Package"
+type: software
+version: 1.0.0
+date-released: 2026-09-23
+authors:
+  - family-names: Yue
+    given-names: Jiajia
+    affiliation: "School of Science, Shanghai University"
+  - family-names: Ma
+    given-names: Ao
+    affiliation: "School of Science, Shanghai University"
+  - family-names: Shang
+    given-names: Shikui
+    affiliation: "School of Science, Shanghai University"
+repository-code: "https://github.com/MA-AO-Y/LeechKEM-reproducibility"
+abstract: >-
+  Fixed-parameter numerical reproduction package for the conditional
+  single-user, multi-challenge classical-ROM estimates and comparison figures
+  reported for LeechKEM.
+keywords:
+  - post-quantum cryptography
+  - learning with errors
+  - key encapsulation mechanism
+  - Leech lattice
+  - reproducibility
