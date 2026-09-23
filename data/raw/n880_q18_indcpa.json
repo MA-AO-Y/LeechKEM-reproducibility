@@ -1,0 +1,143 @@
+{
+  "parameters": {
+    "key": "L1",
+    "display_name": "LeechKEM-1",
+    "target_bits": 128,
+    "n": 880,
+    "q_log2": 18,
+    "beta_log2": 13,
+    "rows": 1,
+    "noise_key": "frodo640",
+    "target_log2_dfp": -140.0
+  },
+  "b_enc": 5,
+  "message_bits": 132,
+  "hybrid_loss_bits": 4.643856189774724,
+  "distribution_for_estimator": "rounded-Gaussian reference Q with the nominal sigma of noise_key",
+  "adjusted_indcpa": {
+    "qrw": 135.44002522597572,
+    "qgrover": 139.52062648321953,
+    "clsf": 153.29265572641728
+  },
+  "security": {
+    "ciphertext_side": {
+      "n": 880,
+      "q": 262144,
+      "m": 904,
+      "sigma": 2.8,
+      "models": {
+        "qrw": {
+          "display_name": "Q-RW-Sieve",
+          "svp_name": "\\qrandwalksieve",
+          "attacks": {
+            "usvp": {
+              "log2_cost": 140.08388141575045,
+              "beta": 556,
+              "d": 1769
+            },
+            "bdd": {
+              "log2_cost": 140.96679152203762,
+              "beta": 555,
+              "eta": 556,
+              "d": 1783
+            },
+            "dual": {
+              "log2_cost": 145.46348369950718,
+              "beta": 578,
+              "d": 1784,
+              "m": 904
+            },
+            "dual_hybrid": {
+              "log2_cost": 144.97443110013828,
+              "beta": 576,
+              "beta_": 529,
+              "m": 880,
+              "zeta": 0,
+              "t": 0,
+              "effective_dimension": 1760
+            }
+          },
+          "raw_minimum": 140.08388141575045,
+          "elapsed_seconds": 3.9173436164855957
+        },
+        "qgrover": {
+          "display_name": "Q-Grover-Sieve",
+          "svp_name": "\\qgroversieve",
+          "attacks": {
+            "usvp": {
+              "log2_cost": 144.16448267299427,
+              "beta": 556,
+              "d": 1769
+            },
+            "bdd": {
+              "log2_cost": 145.04395148725808,
+              "beta": 555,
+              "eta": 556,
+              "d": 1783
+            },
+            "dual": {
+              "log2_cost": 149.70975615003115,
+              "beta": 578,
+              "d": 1784,
+              "m": 904
+            },
+            "dual_hybrid": {
+              "log2_cost": 149.2056393836391,
+              "beta": 576,
+              "beta_": 529,
+              "m": 880,
+              "zeta": 0,
+              "t": 0,
+              "effective_dimension": 1760
+            }
+          },
+          "raw_minimum": 144.16448267299427,
+          "elapsed_seconds": 3.9950735569000244
+        },
+        "clsf": {
+          "display_name": "C-LSF-Sieve",
+          "svp_name": "\\clsfsieve",
+          "attacks": {
+            "usvp": {
+              "log2_cost": 157.93651191619202,
+              "beta": 556,
+              "d": 1769
+            },
+            "bdd": {
+              "log2_cost": 158.80443831069348,
+              "beta": 555,
+              "eta": 556,
+              "d": 1783
+            },
+            "dual": {
+              "log2_cost": 164.0409256706432,
+              "beta": 578,
+              "d": 1784,
+              "m": 904
+            },
+            "dual_hybrid": {
+              "log2_cost": 162.3757983042293,
+              "beta": 571,
+              "beta_": 525,
+              "m": 880,
+              "zeta": 10,
+              "t": 0,
+              "effective_dimension": 1750
+            }
+          },
+          "raw_minimum": 157.93651191619202,
+          "elapsed_seconds": 4.993059396743774
+        }
+      }
+    },
+    "public_key_side": null,
+    "two_sided_reduction": false,
+    "conservative_hybrid_loss_bits": 4.643856189774724,
+    "adjusted_indcpa": {
+      "qrw": 135.44002522597572,
+      "qgrover": 139.52062648321953,
+      "clsf": 153.29265572641728
+    }
+  },
+  "elapsed_seconds": 12.906642436981201
+}

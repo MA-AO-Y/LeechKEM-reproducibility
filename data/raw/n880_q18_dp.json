@@ -1,0 +1,615 @@
+{
+  "schema": "leech-dp-finite-chernoff-v1",
+  "definition": {
+    "P": "chi_Frodo-640",
+    "quantity": "d_P = delta_P(1)",
+    "method": "seven-class Chernoff union bound with fixed-theta Arb verification",
+    "formal_scope": "The Frodo CDF probabilities are exact rationals. Arb encloses the fixed-theta exponential arithmetic; candidate optimization is not required for validity."
+  },
+  "parameters": {
+    "key": "L1",
+    "name": "L1",
+    "n": 880,
+    "beta": 8192,
+    "noise_key": "frodo640",
+    "rows": 1
+  },
+  "noise": {
+    "name": "chi_Frodo-640",
+    "nominal_sigma": 2.8,
+    "support": 12,
+    "cdf_table": [
+      4643,
+      13363,
+      20579,
+      25843,
+      29227,
+      31145,
+      32103,
+      32525,
+      32689,
+      32745,
+      32762,
+      32766,
+      32767
+    ],
+    "magnitude_counts_out_of_2^15": [
+      4644,
+      8720,
+      7216,
+      5264,
+      3384,
+      1918,
+      958,
+      422,
+      164,
+      56,
+      17,
+      4,
+      1
+    ],
+    "realized_sigma_binary64": 2.814560876884261
+  },
+  "verification": {
+    "arb_decimal_digits": 90
+  },
+  "classes": [
+    {
+      "name": "V1",
+      "representative_a": "(2^8,0^16)",
+      "multiplicity": 97152,
+      "norm2": 32,
+      "l1": 16,
+      "threshold": 32768,
+      "theta": "0.0080651903274190084",
+      "log2_single_facet_upper": {
+        "arb": "[-203.599992484563559712727833112 +/- 3.65e-28]",
+        "lower_float": -203.59999248456356,
+        "upper_float": -203.59999248456356
+      },
+      "log2_class_contribution_upper": {
+        "arb": "[-187.032036409148093402780582878 +/- 4.72e-28]",
+        "lower_float": -187.0320364091481,
+        "upper_float": -187.0320364091481
+      },
+      "mz_upper": {
+        "arb": "[1.00827869102004325938437993382 +/- 3.09e-30]",
+        "lower_float": 1.0082786910200432,
+        "upper_float": 1.0082786910200432
+      },
+      "mw_upper": {
+        "arb": "[1.07247597680669461536858702242 +/- 7.01e-31]",
+        "lower_float": 1.0724759768066947,
+        "upper_float": 1.0724759768066947
+      },
+      "theta_trials": [
+        {
+          "theta": "0.0080635772893535244",
+          "log2_class_contribution_upper": {
+            "arb": "[-187.032026508579584806769397108 +/- 2.41e-28]",
+            "lower_float": -187.03202650857958,
+            "upper_float": -187.03202650857958
+          }
+        },
+        {
+          "theta": "0.008064787067902637",
+          "log2_class_contribution_upper": {
+            "arb": "[-187.032035790138650886729361911 +/- 1.03e-28]",
+            "lower_float": -187.03203579013865,
+            "upper_float": -187.03203579013865
+          }
+        },
+        {
+          "theta": "0.0080651903274190084",
+          "log2_class_contribution_upper": {
+            "arb": "[-187.032036409148093402780582878 +/- 4.72e-28]",
+            "lower_float": -187.0320364091481,
+            "upper_float": -187.0320364091481
+          }
+        },
+        {
+          "theta": "0.0080655935869353799",
+          "log2_class_contribution_upper": {
+            "arb": "[-187.032035790650818816130352997 +/- 3.19e-28]",
+            "lower_float": -187.0320357906508,
+            "upper_float": -187.0320357906508
+          }
+        },
+        {
+          "theta": "0.0080668033654844925",
+          "log2_class_contribution_upper": {
+            "arb": "[-187.032026509609028870235011497 +/- 1.81e-28]",
+            "lower_float": -187.03202650960904,
+            "upper_float": -187.03202650960904
+          }
+        }
+      ],
+      "support_max": 4055232,
+      "method": "Chernoff-Arb-fixed-theta",
+      "fast_optimization": {
+        "search_upper": 0.25,
+        "fast_objective": -141.1247607527008,
+        "fast_log2_single_facet": -203.59999248456288
+      }
+    },
+    {
+      "name": "V2",
+      "representative_a": "(3,1^23)",
+      "multiplicity": 98304,
+      "norm2": 32,
+      "l1": 26,
+      "threshold": 32768,
+      "theta": "0.0080651370523181706",
+      "log2_single_facet_upper": {
+        "arb": "[-203.599239743986609321167882524 +/- 4.13e-28]",
+        "lower_float": -203.5992397439866,
+        "upper_float": -203.5992397439866
+      },
+      "log2_class_contribution_upper": {
+        "arb": "[-187.014277243265453139714143580 +/- 4.65e-28]",
+        "lower_float": -187.01427724326544,
+        "upper_float": -187.01427724326544
+      },
+      "mz_upper": {
+        "arb": "[1.00827858251364386960346281810 +/- 2.54e-30]",
+        "lower_float": 1.0082785825136438,
+        "upper_float": 1.0082785825136438
+      },
+      "mw_upper": {
+        "arb": "[1.07247523103952881530285016532 +/- 1.13e-30]",
+        "lower_float": 1.072475231039529,
+        "upper_float": 1.072475231039529
+      },
+      "theta_trials": [
+        {
+          "theta": "0.0080635240249077068",
+          "log2_class_contribution_upper": {
+            "arb": "[-187.014267346544578257168433646 +/- 1.83e-28]",
+            "lower_float": -187.01426734654459,
+            "upper_float": -187.01426734654459
+          }
+        },
+        {
+          "theta": "0.0080647337954655555",
+          "log2_class_contribution_upper": {
+            "arb": "[-187.014276625226797920934158738 +/- 3.19e-28]",
+            "lower_float": -187.01427662522678,
+            "upper_float": -187.01427662522678
+          }
+        },
+        {
+          "theta": "0.0080651370523181706",
+          "log2_class_contribution_upper": {
+            "arb": "[-187.014277243265453139714143580 +/- 4.65e-28]",
+            "lower_float": -187.01427724326544,
+            "upper_float": -187.01427724326544
+          }
+        },
+        {
+          "theta": "0.0080655403091707874",
+          "log2_class_contribution_upper": {
+            "arb": "[-187.014276623791468078579446853 +/- 3.12e-28]",
+            "lower_float": -187.01427662379146,
+            "upper_float": -187.01427662379146
+          }
+        },
+        {
+          "theta": "0.0080667500797286344",
+          "log2_class_contribution_upper": {
+            "arb": "[-187.014267339783984010737665660 +/- 6.10e-29]",
+            "lower_float": -187.01426733978397,
+            "upper_float": -187.01426733978397
+          }
+        }
+      ],
+      "support_max": 6589752,
+      "method": "Chernoff-Arb-fixed-theta",
+      "fast_optimization": {
+        "search_upper": 0.25,
+        "fast_objective": -141.1242389926936,
+        "fast_log2_single_facet": -203.59923974398794
+      }
+    },
+    {
+      "name": "V3",
+      "representative_a": "(4^2,0^22)",
+      "multiplicity": 1104,
+      "norm2": 32,
+      "l1": 8,
+      "threshold": 32768,
+      "theta": "0.008066424673513926",
+      "log2_single_facet_upper": {
+        "arb": "[-203.615361141135391852714328352 +/- 2.48e-28]",
+        "lower_float": -203.6153611411354,
+        "upper_float": -203.6153611411354
+      },
+      "log2_class_contribution_upper": {
+        "arb": "[-193.506836684357222798966441164 +/- 1.37e-28]",
+        "lower_float": -193.5068366843572,
+        "upper_float": -193.5068366843572
+      },
+      "mz_upper": {
+        "arb": "[1.00828121454585873361704044563 +/- 2.04e-30]",
+        "lower_float": 1.0082812145458588,
+        "upper_float": 1.0082812145458588
+      },
+      "mw_upper": {
+        "arb": "[1.07249413093734685569559952393 +/- 6.69e-31]",
+        "lower_float": 1.0724941309373468,
+        "upper_float": 1.0724941309373468
+      },
+      "theta_trials": [
+        {
+          "theta": "0.0080648113885792242",
+          "log2_class_contribution_upper": {
+            "arb": "[-193.506826783099521327324267985 +/- 2.56e-28]",
+            "lower_float": -193.5068267830995,
+            "upper_float": -193.5068267830995
+          }
+        },
+        {
+          "theta": "0.0080660213522802497",
+          "log2_class_contribution_upper": {
+            "arb": "[-193.506836064737869812824105024 +/- 9.52e-29]",
+            "lower_float": -193.50683606473788,
+            "upper_float": -193.50683606473788
+          }
+        },
+        {
+          "theta": "0.008066424673513926",
+          "log2_class_contribution_upper": {
+            "arb": "[-193.506836684357222798966441164 +/- 1.37e-28]",
+            "lower_float": -193.5068366843572,
+            "upper_float": -193.5068366843572
+          }
+        },
+        {
+          "theta": "0.0080668279947476024",
+          "log2_class_contribution_upper": {
+            "arb": "[-193.506836066761815928732337076 +/- 3.54e-28]",
+            "lower_float": -193.50683606676182,
+            "upper_float": -193.50683606676182
+          }
+        },
+        {
+          "theta": "0.0080680379584486279",
+          "log2_class_contribution_upper": {
+            "arb": "[-193.506826790178667728702812761 +/- 1.01e-28]",
+            "lower_float": -193.50682679017868,
+            "upper_float": -193.50682679017868
+          }
+        }
+      ],
+      "support_max": 2027616,
+      "method": "Chernoff-Arb-fixed-theta",
+      "fast_optimization": {
+        "search_upper": 0.25,
+        "fast_objective": -141.13541349367304,
+        "fast_log2_single_facet": -203.6153611411354
+      }
+    },
+    {
+      "name": "V4",
+      "representative_a": "(2^12,0^12)",
+      "multiplicity": 5275648,
+      "norm2": 48,
+      "l1": 24,
+      "threshold": 49152,
+      "theta": "0.0076464910282261853",
+      "log2_single_facet_upper": {
+        "arb": "[-296.359710758391233675334274047 +/- 8.73e-29]",
+        "lower_float": -296.35971075839126,
+        "upper_float": -296.35971075839126
+      },
+      "log2_class_contribution_upper": {
+        "arb": "[-274.028793880276616695598156486 +/- 4.82e-28]",
+        "lower_float": -274.0287938802766,
+        "upper_float": -274.0287938802766
+      },
+      "mz_upper": {
+        "arb": "[1.01117822020244808988090991577 +/- 1.31e-30]",
+        "lower_float": 1.0111782202024482,
+        "upper_float": 1.0111782202024482
+      },
+      "mw_upper": {
+        "arb": "[1.10166525697957808336708985988 +/- 4.31e-30]",
+        "lower_float": 1.1016652569795782,
+        "upper_float": 1.1016652569795782
+      },
+      "theta_trials": [
+        {
+          "theta": "0.0076449617300205401",
+          "log2_class_contribution_upper": {
+            "arb": "[-274.028778445124026237024785439 +/- 4.98e-28]",
+            "lower_float": -274.02877844512403,
+            "upper_float": -274.02877844512403
+          }
+        },
+        {
+          "theta": "0.0076461087036747742",
+          "log2_class_contribution_upper": {
+            "arb": "[-274.028792915174737469987169806 +/- 3.68e-28]",
+            "lower_float": -274.02879291517473,
+            "upper_float": -274.02879291517473
+          }
+        },
+        {
+          "theta": "0.0076464910282261853",
+          "log2_class_contribution_upper": {
+            "arb": "[-274.028793880276616695598156486 +/- 4.82e-28]",
+            "lower_float": -274.0287938802766,
+            "upper_float": -274.0287938802766
+          }
+        },
+        {
+          "theta": "0.0076468733527775973",
+          "log2_class_contribution_upper": {
+            "arb": "[-274.028792916071443155293074159 +/- 3.65e-28]",
+            "lower_float": -274.02879291607144,
+            "upper_float": -274.02879291607144
+          }
+        },
+        {
+          "theta": "0.0076480203264318305",
+          "log2_class_contribution_upper": {
+            "arb": "[-274.028778446516106970122210145 +/- 2.94e-28]",
+            "lower_float": -274.0287784465161,
+            "upper_float": -274.0287784465161
+          }
+        }
+      ],
+      "support_max": 6082848,
+      "method": "Chernoff-Arb-fixed-theta",
+      "fast_optimization": {
+        "search_upper": 0.25,
+        "fast_objective": -205.42089794373885,
+        "fast_log2_single_facet": -296.3597107583899
+      }
+    },
+    {
+      "name": "V5",
+      "representative_a": "(3^3,1^21)",
+      "multiplicity": 8290304,
+      "norm2": 48,
+      "l1": 30,
+      "threshold": 49152,
+      "theta": "0.0076466220594293196",
+      "log2_single_facet_upper": {
+        "arb": "[-296.362269974839380893658128666 +/- 2.96e-28]",
+        "lower_float": -296.36226997483936,
+        "upper_float": -296.36226997483936
+      },
+      "log2_class_contribution_upper": {
+        "arb": "[-273.379276400145070765164617375 +/- 4.07e-28]",
+        "lower_float": -273.37927640014505,
+        "upper_float": -273.37927640014505
+      },
+      "mz_upper": {
+        "arb": "[1.01117860222755788149841925178 +/- 1.42e-30]",
+        "lower_float": 1.011178602227558,
+        "upper_float": 1.011178602227558
+      },
+      "mw_upper": {
+        "arb": "[1.10166817774481232836659244475 +/- 1.83e-30]",
+        "lower_float": 1.1016681777448123,
+        "upper_float": 1.1016681777448123
+      },
+      "theta_trials": [
+        {
+          "theta": "0.0076450927350174341",
+          "log2_class_contribution_upper": {
+            "arb": "[-273.379260967590562676176807947 +/- 2.59e-28]",
+            "lower_float": -273.37926096759054,
+            "upper_float": -273.37926096759054
+          }
+        },
+        {
+          "theta": "0.007646239728326348",
+          "log2_class_contribution_upper": {
+            "arb": "[-273.379275435615151335330166823 +/- 4.43e-28]",
+            "lower_float": -273.37927543561517,
+            "upper_float": -273.37927543561517
+          }
+        },
+        {
+          "theta": "0.0076466220594293196",
+          "log2_class_contribution_upper": {
+            "arb": "[-273.379276400145070765164617375 +/- 4.07e-28]",
+            "lower_float": -273.37927640014505,
+            "upper_float": -273.37927640014505
+          }
+        },
+        {
+          "theta": "0.007647004390532292",
+          "log2_class_contribution_upper": {
+            "arb": "[-273.379275435419686984201566087 +/- 2.79e-28]",
+            "lower_float": -273.3792754354197,
+            "upper_float": -273.3792754354197
+          }
+        },
+        {
+          "theta": "0.0076481513838412051",
+          "log2_class_contribution_upper": {
+            "arb": "[-273.379260964614471752758097685 +/- 4.82e-28]",
+            "lower_float": -273.37926096461445,
+            "upper_float": -273.37926096461445
+          }
+        }
+      ],
+      "support_max": 7603560,
+      "method": "Chernoff-Arb-fixed-theta",
+      "fast_optimization": {
+        "search_upper": 0.25,
+        "fast_objective": -205.42267185740528,
+        "fast_log2_single_facet": -296.3622699748394
+      }
+    },
+    {
+      "name": "V6",
+      "representative_a": "(4,2^8,0^15)",
+      "multiplicity": 3108864,
+      "norm2": 48,
+      "l1": 20,
+      "threshold": 49152,
+      "theta": "0.0076468413632224154",
+      "log2_single_facet_upper": {
+        "arb": "[-296.366547206618785831244928339 +/- 3.51e-28]",
+        "lower_float": -296.3665472066188,
+        "upper_float": -296.3665472066188
+      },
+      "log2_class_contribution_upper": {
+        "arb": "[-274.798591131203319521297678104 +/- 1.87e-28]",
+        "lower_float": -274.7985911312033,
+        "upper_float": -274.7985911312033
+      },
+      "mz_upper": {
+        "arb": "[1.01117924165048435881896065199 +/- 2.25e-30]",
+        "lower_float": 1.0111792416504843,
+        "upper_float": 1.0111792416504843
+      },
+      "mw_upper": {
+        "arb": "[1.10167306880967973184402143815 +/- 3.92e-31]",
+        "lower_float": 1.1016730688096796,
+        "upper_float": 1.1016730688096796
+      },
+      "theta_trials": [
+        {
+          "theta": "0.0076453119949497711",
+          "log2_class_contribution_upper": {
+            "arb": "[-274.798575699290014051685835347 +/- 2.60e-28]",
+            "lower_float": -274.79857569929004,
+            "upper_float": -274.79857569929004
+          }
+        },
+        {
+          "theta": "0.0076464590211542541",
+          "log2_class_contribution_upper": {
+            "arb": "[-274.798590166701915748124071195 +/- 2.91e-28]",
+            "lower_float": -274.7985901667019,
+            "upper_float": -274.7985901667019
+          }
+        },
+        {
+          "theta": "0.0076468413632224154",
+          "log2_class_contribution_upper": {
+            "arb": "[-274.798591131203319521297678104 +/- 1.87e-28]",
+            "lower_float": -274.7985911312033,
+            "upper_float": -274.7985911312033
+          }
+        },
+        {
+          "theta": "0.0076472237052905775",
+          "log2_class_contribution_upper": {
+            "arb": "[-274.798590166537348862650997303 +/- 1.79e-28]",
+            "lower_float": -274.79859016653734,
+            "upper_float": -274.79859016653734
+          }
+        },
+        {
+          "theta": "0.0076483707314950597",
+          "log2_class_contribution_upper": {
+            "arb": "[-274.798575696438378594100589492 +/- 1.12e-28]",
+            "lower_float": -274.7985756964384,
+            "upper_float": -274.7985756964384
+          }
+        }
+      ],
+      "support_max": 5069040,
+      "method": "Chernoff-Arb-fixed-theta",
+      "fast_optimization": {
+        "search_upper": 0.25,
+        "fast_objective": -205.4256366085545,
+        "fast_log2_single_facet": -296.3665472066199
+      }
+    },
+    {
+      "name": "V7",
+      "representative_a": "(5,1^23)",
+      "multiplicity": 98304,
+      "norm2": 48,
+      "l1": 28,
+      "threshold": 49152,
+      "theta": "0.007647431544202778",
+      "log2_single_facet_upper": {
+        "arb": "[-296.377426049292997007295416425 +/- 3.70e-29]",
+        "lower_float": -296.377426049293,
+        "upper_float": -296.377426049293
+      },
+      "log2_class_contribution_upper": {
+        "arb": "[-279.792463548571840825841677481 +/- 8.92e-29]",
+        "lower_float": -279.79246354857185,
+        "upper_float": -279.79246354857185
+      },
+      "mz_upper": {
+        "arb": "[1.01118096511648477068284412818 +/- 3.51e-30]",
+        "lower_float": 1.0111809651164847,
+        "upper_float": 1.0111809651164847
+      },
+      "mw_upper": {
+        "arb": "[1.10168650569258446859827178765 +/- 3.45e-30]",
+        "lower_float": 1.1016865056925844,
+        "upper_float": 1.1016865056925844
+      },
+      "theta_trials": [
+        {
+          "theta": "0.0076459020578939375",
+          "log2_class_contribution_upper": {
+            "arb": "[-279.792448118875064808945201198 +/- 4.50e-28]",
+            "lower_float": -279.7924481188751,
+            "upper_float": -279.7924481188751
+          }
+        },
+        {
+          "theta": "0.0076470491726255679",
+          "log2_class_contribution_upper": {
+            "arb": "[-279.792462584184239958054047455 +/- 4.64e-28]",
+            "lower_float": -279.79246258418425,
+            "upper_float": -279.79246258418425
+          }
+        },
+        {
+          "theta": "0.007647431544202778",
+          "log2_class_contribution_upper": {
+            "arb": "[-279.792463548571840825841677481 +/- 8.92e-29]",
+            "lower_float": -279.79246354857185,
+            "upper_float": -279.79246354857185
+          }
+        },
+        {
+          "theta": "0.007647813915779989",
+          "log2_class_contribution_upper": {
+            "arb": "[-279.792462584085864608960837769 +/- 4.36e-28]",
+            "lower_float": -279.79246258408585,
+            "upper_float": -279.79246258408585
+          }
+        },
+        {
+          "theta": "0.0076489610305116185",
+          "log2_class_contribution_upper": {
+            "arb": "[-279.792448116291128846803597826 +/- 2.42e-29]",
+            "lower_float": -279.79244811629115,
+            "upper_float": -279.79244811629115
+          }
+        }
+      ],
+      "support_max": 7096656,
+      "method": "Chernoff-Arb-fixed-theta",
+      "fast_optimization": {
+        "search_upper": 0.25,
+        "fast_objective": -205.43317724767974,
+        "fast_log2_single_facet": -296.377426049291
+      }
+    }
+  ],
+  "log2_dP_upper": {
+    "arb": "[-186.015091577711334704676903750 +/- 2.23e-28]",
+    "lower_float": -186.01509157771133,
+    "upper_float": -186.01509157771133
+  },
+  "dP_upper": {
+    "arb": "[1.00896892086154431458936812452e-56 +/- 1.90e-87]",
+    "lower_float": 1.0089689208615444e-56,
+    "upper_float": 1.0089689208615444e-56
+  },
+  "elapsed_seconds": 1.374861717224121
+}

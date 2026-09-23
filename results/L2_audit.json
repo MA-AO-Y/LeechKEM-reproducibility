@@ -1,0 +1,5152 @@
+{
+  "parameters": {
+    "key": "L2",
+    "n": 1136,
+    "q": 17,
+    "beta": 13,
+    "rows": 2,
+    "mu": 216,
+    "salt": 384,
+    "target": 192,
+    "design": 128,
+    "alpha": 500,
+    "D": 1.4e-05,
+    "sigma": 2.3,
+    "frodo": 976,
+    "fmu": 192,
+    "fb": 195.8,
+    "fd": -199.6
+  },
+  "input_sha256": {
+    "n1136_q17_indcpa.json": "2cbaa2e73ba544b1d62ac90ee0a48cd4abb0e7d1b36f185e16c0f3a05f78a3bd",
+    "n1136_q17_dp.json": "d844162815c0fff213f36d1041bee8407f5e71c2bb958b8d1c8c85dbb0b84676",
+    "n1136_q17_dq.json": "18622e85ef9fcce3eb7ecb86c32642989f6e901d406831efc164d7337c0ff6f3"
+  },
+  "bCPA": 216.79616676546604,
+  "log2_dP": -317.9510823511591,
+  "log2_dQ": -317.7614652092347,
+  "leech": [
+    {
+      "N": 1,
+      "security_bits": 213.23686162102848,
+      "log2_advantage_bound": -181.23686162102848,
+      "samples": 59120,
+      "renyi_loss_bits": 1.1940898314429773,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -216.0,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -183.79616676546604
+      },
+      "outer_log2_terms": {
+        "main": -182.2368632423805,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": null,
+        "salt_bad": null
+      }
+    },
+    {
+      "N": 2,
+      "security_bits": 212.14630476692884,
+      "log2_advantage_bound": -180.14630476692884,
+      "samples": 63712,
+      "renyi_loss_bits": 1.286837810231647,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -215.0,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -182.79616676546604
+      },
+      "outer_log2_terms": {
+        "main": -181.14630552828325,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -599.0,
+        "salt_bad": -384.0
+      }
+    },
+    {
+      "N": 3,
+      "security_bits": 211.4699515829002,
+      "log2_advantage_bound": -179.4699515829002,
+      "samples": 68304,
+      "renyi_loss_bits": 1.3795857890203167,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -214.41503749927884,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -182.21120426474488
+      },
+      "outer_log2_terms": {
+        "main": -180.46995205931387,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -597.4150374992788,
+        "salt_bad": -382.41503749927887
+      }
+    },
+    {
+      "N": 4,
+      "security_bits": 210.96318261169546,
+      "log2_advantage_bound": -178.96318261169546,
+      "samples": 72896,
+      "renyi_loss_bits": 1.472333767808986,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -214.0,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -181.79616676546604
+      },
+      "outer_log2_terms": {
+        "main": -179.9631829469939,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -596.4150374992788,
+        "salt_bad": -381.41503749927887
+      }
+    },
+    {
+      "N": 5,
+      "security_bits": 210.54933645065867,
+      "log2_advantage_bound": -178.54933645065867,
+      "samples": 77488,
+      "renyi_loss_bits": 1.565081746597656,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -213.67807190511263,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -181.47423867057867
+      },
+      "outer_log2_terms": {
+        "main": -179.54933670234024,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -595.6780719051126,
+        "salt_bad": -380.67807190511263
+      }
+    },
+    {
+      "N": 6,
+      "security_bits": 210.19426600363124,
+      "log2_advantage_bound": -178.19426600363124,
+      "samples": 82080,
+      "renyi_loss_bits": 1.6578297253863257,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -213.41503749927884,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -181.21120426474488
+      },
+      "outer_log2_terms": {
+        "main": -179.1942662004038,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -595.0931094043915,
+        "salt_bad": -380.0931094043915
+      }
+    },
+    {
+      "N": 7,
+      "security_bits": 209.87975614993283,
+      "log2_advantage_bound": -177.87975614993283,
+      "samples": 86672,
+      "renyi_loss_bits": 1.7505777041749955,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -213.1926450779424,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -180.98881184340843
+      },
+      "outer_log2_terms": {
+        "main": -178.8797563081624,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -594.6076825772212,
+        "salt_bad": -379.6076825772212
+      }
+    },
+    {
+      "N": 8,
+      "security_bits": 209.5949340779758,
+      "log2_advantage_bound": -177.5949340779758,
+      "samples": 91264,
+      "renyi_loss_bits": 1.843325682963665,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -213.0,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -180.79616676546604
+      },
+      "outer_log2_terms": {
+        "main": -178.59493420785742,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -594.1926450779424,
+        "salt_bad": -379.1926450779424
+      }
+    },
+    {
+      "N": 9,
+      "security_bits": 209.33278659775107,
+      "log2_advantage_bound": -177.33278659775107,
+      "samples": 95856,
+      "renyi_loss_bits": 1.9360736617523349,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -212.83007499855768,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -180.62624176402375
+      },
+      "outer_log2_terms": {
+        "main": -178.3327867060523,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -593.8300749985576,
+        "salt_bad": -378.8300749985577
+      }
+    },
+    {
+      "N": 10,
+      "security_bits": 209.08852515050225,
+      "log2_advantage_bound": -177.08852515050225,
+      "samples": 100448,
+      "renyi_loss_bits": 2.0288216405410044,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -212.67807190511263,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -180.47423867057867
+      },
+      "outer_log2_terms": {
+        "main": -178.08852524193534,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -593.5081469036703,
+        "salt_bad": -378.5081469036703
+      }
+    },
+    {
+      "N": 11,
+      "security_bits": 208.85873425113613,
+      "log2_advantage_bound": -176.85873425113613,
+      "samples": 105040,
+      "renyi_loss_bits": 2.121569619329674,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -212.5405683813627,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -180.33673514682874
+      },
+      "outer_log2_terms": {
+        "main": -177.85873432910645,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -593.2186402864753,
+        "salt_bad": -378.21864028647536
+      }
+    },
+    {
+      "N": 12,
+      "security_bits": 208.6408920311667,
+      "log2_advantage_bound": -176.6408920311667,
+      "samples": 109632,
+      "renyi_loss_bits": 2.2143175981183436,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -212.41503749927884,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -180.21120426474488
+      },
+      "outer_log2_terms": {
+        "main": -177.64089209820952,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -592.9556058806415,
+        "salt_bad": -377.95560588064154
+      }
+    },
+    {
+      "N": 13,
+      "security_bits": 208.4330833554821,
+      "log2_advantage_bound": -176.4330833554821,
+      "samples": 114224,
+      "renyi_loss_bits": 2.3070655769070134,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -212.2995602818589,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -180.09572704732494
+      },
+      "outer_log2_terms": {
+        "main": -177.43308341353122,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -592.7145977811377,
+        "salt_bad": -377.71459778113774
+      }
+    },
+    {
+      "N": 14,
+      "security_bits": 208.23381955903486,
+      "log2_advantage_bound": -176.23381955903486,
+      "samples": 118816,
+      "renyi_loss_bits": 2.399813555695683,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -212.1926450779424,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -179.98881184340843
+      },
+      "outer_log2_terms": {
+        "main": -177.23381960959534,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -592.4922053598013,
+        "salt_bad": -377.4922053598013
+      }
+    },
+    {
+      "N": 15,
+      "security_bits": 208.0419205257138,
+      "log2_advantage_bound": -176.0419205257138,
+      "samples": 123408,
+      "renyi_loss_bits": 2.4925615344843526,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -212.09310940439147,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -179.8892761698575
+      },
+      "outer_log2_terms": {
+        "main": -177.04192056997712,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -592.2857544823339,
+        "salt_bad": -377.28575448233386
+      }
+    },
+    {
+      "N": 16,
+      "security_bits": 207.85643490237993,
+      "log2_advantage_bound": -175.85643490237993,
+      "samples": 128000,
+      "renyi_loss_bits": 2.5853095132730224,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -212.0,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -179.79616676546604
+      },
+      "outer_log2_terms": {
+        "main": -176.856434941303,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -592.0931094043915,
+        "salt_bad": -377.0931094043915
+      }
+    },
+    {
+      "N": 17,
+      "security_bits": 207.67658454360736,
+      "log2_advantage_bound": -175.67658454360736,
+      "samples": 132592,
+      "renyi_loss_bits": 2.678057492061692,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -211.91253715874967,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -179.70870392421568
+      },
+      "outer_log2_terms": {
+        "main": -176.67658457796844,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -591.9125371587497,
+        "salt_bad": -376.91253715874967
+      }
+    },
+    {
+      "N": 18,
+      "security_bits": 207.50172485999525,
+      "log2_advantage_bound": -175.50172485999525,
+      "samples": 137184,
+      "renyi_loss_bits": 2.770805470850362,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -211.83007499855768,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -179.62624176402375
+      },
+      "outer_log2_terms": {
+        "main": -176.50172489043413,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -591.7426121573073,
+        "salt_bad": -376.74261215730735
+      }
+    },
+    {
+      "N": 19,
+      "security_bits": 207.3313159014655,
+      "log2_advantage_bound": -175.3313159014655,
+      "samples": 141776,
+      "renyi_loss_bits": 2.8635534496390314,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -211.75207248655641,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -179.54823925202246
+      },
+      "outer_log2_terms": {
+        "main": -176.33131592851322,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -591.5821474851141,
+        "salt_bad": -376.5821474851141
+      }
+    },
+    {
+      "N": 20,
+      "security_bits": 207.16490086639894,
+      "log2_advantage_bound": -175.16490086639894,
+      "samples": 146368,
+      "renyi_loss_bits": 2.956301428427701,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -211.67807190511263,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -179.47423867057867
+      },
+      "outer_log2_terms": {
+        "main": -176.16490089049992,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -591.430144391669,
+        "salt_bad": -376.43014439166905
+      }
+    },
+    {
+      "N": 21,
+      "security_bits": 207.00208985961262,
+      "log2_advantage_bound": -175.00208985961262,
+      "samples": 150960,
+      "renyi_loss_bits": 3.0490494072163705,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -211.60768257722123,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -179.4038493426873
+      },
+      "outer_log2_terms": {
+        "main": -176.00208988114161,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -591.2857544823339,
+        "salt_bad": -376.28575448233386
+      }
+    },
+    {
+      "N": 22,
+      "security_bits": 206.84254743221254,
+      "log2_advantage_bound": -174.84254743221254,
+      "samples": 155552,
+      "renyi_loss_bits": 3.1417973860050408,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -211.5405683813627,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -179.33673514682874
+      },
+      "outer_log2_terms": {
+        "main": -175.84254745148763,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -591.148250958584,
+        "salt_bad": -376.14825095858396
+      }
+    },
+    {
+      "N": 23,
+      "security_bits": 206.6859828934677,
+      "log2_advantage_bound": -174.6859828934677,
+      "samples": 160144,
+      "renyi_loss_bits": 3.23454536479371,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -211.47643804394298,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -179.27260480940902
+      },
+      "outer_log2_terms": {
+        "main": -175.68598291076052,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -591.0170064253057,
+        "salt_bad": -376.0170064253057
+      }
+    },
+    {
+      "N": 24,
+      "security_bits": 206.53214268608897,
+      "log2_advantage_bound": -174.53214268608897,
+      "samples": 164736,
+      "renyi_loss_bits": 3.32729334358238,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -211.41503749927884,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -179.21120426474488
+      },
+      "outer_log2_terms": {
+        "main": -175.53214270163272,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -590.8914755432219,
+        "salt_bad": -375.8914755432218
+      }
+    },
+    {
+      "N": 25,
+      "security_bits": 206.38080431902623,
+      "log2_advantage_bound": -174.38080431902623,
+      "samples": 169328,
+      "renyi_loss_bits": 3.4200413223710493,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -211.35614381022526,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -179.15231057569133
+      },
+      "outer_log2_terms": {
+        "main": -175.38080433302204,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -590.7711813095041,
+        "salt_bad": -375.77118130950413
+      }
+    },
+    {
+      "N": 26,
+      "security_bits": 206.23177149093218,
+      "log2_advantage_bound": -174.23177149093218,
+      "samples": 173920,
+      "renyi_loss_bits": 3.5127893011597195,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -211.2995602818589,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -179.09572704732494
+      },
+      "outer_log2_terms": {
+        "main": -175.23177150355437,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -590.6557040920842,
+        "salt_bad": -375.6557040920842
+      }
+    },
+    {
+      "N": 27,
+      "security_bits": 206.08487013445495,
+      "log2_advantage_bound": -174.08487013445495,
+      "samples": 178512,
+      "renyi_loss_bits": 3.605537279948389,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -211.24511249783654,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -179.04127926330256
+      },
+      "outer_log2_terms": {
+        "main": -175.08487014585515,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -590.5446727796955,
+        "salt_bad": -375.5446727796954
+      }
+    },
+    {
+      "N": 28,
+      "security_bits": 205.9399451802748,
+      "log2_advantage_bound": -173.9399451802748,
+      "samples": 183104,
+      "renyi_loss_bits": 3.6982852587370587,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -211.1926450779424,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -178.98881184340843
+      },
+      "outer_log2_terms": {
+        "main": -174.93994519058546,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -590.437757575779,
+        "salt_bad": -375.4377575757789
+      }
+    },
+    {
+      "N": 29,
+      "security_bits": 205.7968578892391,
+      "log2_advantage_bound": -173.7968578892391,
+      "samples": 187696,
+      "renyi_loss_bits": 3.791033237525728,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -211.14201900487242,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -178.93818577033846
+      },
+      "outer_log2_terms": {
+        "main": -174.79685789857623,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -590.3346640828148,
+        "salt_bad": -375.3346640828148
+      }
+    },
+    {
+      "N": 30,
+      "security_bits": 205.6554836369623,
+      "log2_advantage_bound": -173.6554836369623,
+      "samples": 192288,
+      "renyi_loss_bits": 3.883781216314398,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -211.09310940439147,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -178.8892761698575
+      },
+      "outer_log2_terms": {
+        "main": -174.65548364542784,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -590.2351284092639,
+        "salt_bad": -375.2351284092639
+      }
+    },
+    {
+      "N": 31,
+      "security_bits": 205.51571006181948,
+      "log2_advantage_bound": -173.51571006181948,
+      "samples": 196880,
+      "renyi_loss_bits": 3.9765291951030677,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -211.04580368961314,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -178.84197045507915
+      },
+      "outer_log2_terms": {
+        "main": -174.5157100695033,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -590.1389130940046,
+        "salt_bad": -375.1389130940046
+      }
+    },
+    {
+      "N": 32,
+      "security_bits": 205.37743550707117,
+      "log2_advantage_bound": -173.37743550707117,
+      "samples": 201472,
+      "renyi_loss_bits": 4.069277173891737,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -211.0,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -178.79616676546604
+      },
+      "outer_log2_terms": {
+        "main": -174.37743551405276,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -590.0458036896132,
+        "salt_bad": -375.04580368961314
+      }
+    },
+    {
+      "N": 33,
+      "security_bits": 205.240567702784,
+      "log2_advantage_bound": -173.240567702784,
+      "samples": 206064,
+      "renyi_loss_bits": 4.162025152680407,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -210.95560588064154,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -178.75177264610758
+      },
+      "outer_log2_terms": {
+        "main": -174.2405677091337,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -589.9556058806415,
+        "salt_bad": -374.95560588064154
+      }
+    },
+    {
+      "N": 34,
+      "security_bits": 205.10502264457463,
+      "log2_advantage_bound": -173.10502264457463,
+      "samples": 210656,
+      "renyi_loss_bits": 4.254773131469077,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -210.91253715874967,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -178.70870392421568
+      },
+      "outer_log2_terms": {
+        "main": -174.10502265035493,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -589.8681430393913,
+        "salt_bad": -374.8681430393912
+      }
+    },
+    {
+      "N": 35,
+      "security_bits": 204.97072363492882,
+      "log2_advantage_bound": -172.97072363492882,
+      "samples": 215248,
+      "renyi_loss_bits": 4.3475211102577465,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -210.87071698305505,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -178.66688374852106
+      },
+      "outer_log2_terms": {
+        "main": -173.9707236401953,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -589.7832541418047,
+        "salt_bad": -374.7832541418047
+      }
+    },
+    {
+      "N": 36,
+      "security_bits": 204.8376004596031,
+      "log2_advantage_bound": -172.8376004596031,
+      "samples": 219840,
+      "renyi_loss_bits": 4.440269089046416,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -210.83007499855768,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -178.62624176402375
+      },
+      "outer_log2_terms": {
+        "main": -173.83760046440537,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -589.7007919816127,
+        "salt_bad": -374.7007919816127
+      }
+    },
+    {
+      "N": 37,
+      "security_bits": 204.7055886768939,
+      "log2_advantage_bound": -172.7055886768939,
+      "samples": 224432,
+      "renyi_loss_bits": 4.533017067835086,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -210.79054663437105,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -178.5867133998371
+      },
+      "outer_log2_terms": {
+        "main": -173.70558868127628,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -589.6206216329288,
+        "salt_bad": -374.62062163292876
+      }
+    },
+    {
+      "N": 38,
+      "security_bits": 204.57462900170756,
+      "log2_advantage_bound": -172.57462900170756,
+      "samples": 229024,
+      "renyi_loss_bits": 4.625765046623755,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -210.75207248655641,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -178.54823925202246
+      },
+      "outer_log2_terms": {
+        "main": -173.57462900570962,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -589.5426191209275,
+        "salt_bad": -374.54261912092744
+      }
+    },
+    {
+      "N": 39,
+      "security_bits": 204.444666769649,
+      "log2_advantage_bound": -172.444666769649,
+      "samples": 233616,
+      "renyi_loss_bits": 4.718513025412425,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -210.71459778113774,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -178.5107645466038
+      },
+      "outer_log2_terms": {
+        "main": -173.4446667733063,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -589.4666702676941,
+        "salt_bad": -374.46667026769416
+      }
+    },
+    {
+      "N": 40,
+      "security_bits": 204.31565146897142,
+      "log2_advantage_bound": -172.31565146897142,
+      "samples": 238208,
+      "renyi_loss_bits": 4.8112610042010955,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -210.67807190511263,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -178.47423867057867
+      },
+      "outer_log2_terms": {
+        "main": -173.3156514723159,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -589.3926696862504,
+        "salt_bad": -374.3926696862504
+      }
+    },
+    {
+      "N": 41,
+      "security_bits": 204.18753633032887,
+      "log2_advantage_bound": -172.18753633032887,
+      "samples": 242800,
+      "renyi_loss_bits": 4.904008982989764,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -210.64244799538193,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -178.43861476084794
+      },
+      "outer_log2_terms": {
+        "main": -173.18753633338912,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -589.3205199004946,
+        "salt_bad": -374.32051990049456
+      }
+    },
+    {
+      "N": 42,
+      "security_bits": 204.0602779659704,
+      "log2_advantage_bound": -172.0602779659704,
+      "samples": 247392,
+      "renyi_loss_bits": 4.996756961778434,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -210.60768257722123,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -178.4038493426873
+      },
+      "outer_log2_terms": {
+        "main": -173.0602779687723,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -589.2501305726032,
+        "salt_bad": -374.25013057260315
+      }
+    },
+    {
+      "N": 43,
+      "security_bits": 203.93383605139596,
+      "log2_advantage_bound": -171.93383605139596,
+      "samples": 251984,
+      "renyi_loss_bits": 5.089504940567104,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -210.5737352452979,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -178.36990201076395
+      },
+      "outer_log2_terms": {
+        "main": -172.93383605396272,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -589.1814178225192,
+        "salt_bad": -374.18141782251917
+      }
+    },
+    {
+      "N": 44,
+      "security_bits": 203.8081730436126,
+      "log2_advantage_bound": -171.8081730436126,
+      "samples": 256576,
+      "renyi_loss_bits": 5.182252919355774,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -210.5405683813627,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -178.33673514682874
+      },
+      "outer_log2_terms": {
+        "main": -172.80817304596528,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -589.1143036266606,
+        "salt_bad": -374.1143036266606
+      }
+    },
+    {
+      "N": 45,
+      "security_bits": 203.6832539310566,
+      "log2_advantage_bound": -171.6832539310566,
+      "samples": 261168,
+      "renyi_loss_bits": 5.275000898144444,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -210.50814690367034,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -178.30431366913638
+      },
+      "outer_log2_terms": {
+        "main": -172.68325393321413,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -589.048715285033,
+        "salt_bad": -374.04871528503304
+      }
+    },
+    {
+      "N": 46,
+      "security_bits": 203.5590460110031,
+      "log2_advantage_bound": -171.5590460110031,
+      "samples": 265760,
+      "renyi_loss_bits": 5.3677488769331125,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -210.47643804394298,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -178.27260480940902
+      },
+      "outer_log2_terms": {
+        "main": -172.55904601298263,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -588.9845849476133,
+        "salt_bad": -373.9845849476133
+      }
+    },
+    {
+      "N": 47,
+      "security_bits": 203.43551869091647,
+      "log2_advantage_bound": -171.43551869091647,
+      "samples": 270352,
+      "renyi_loss_bits": 5.460496855721782,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -210.44541114832236,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -178.2415779137884
+      },
+      "outer_log2_terms": {
+        "main": -172.43551869273358,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -588.9218491922653,
+        "salt_bad": -373.92184919226537
+      }
+    },
+    {
+      "N": 48,
+      "security_bits": 203.31264331071594,
+      "log2_advantage_bound": -171.31264331071594,
+      "samples": 274944,
+      "renyi_loss_bits": 5.553244834510452,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -210.41503749927884,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -178.21120426474488
+      },
+      "outer_log2_terms": {
+        "main": -172.3126433123847,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -588.8604486476012,
+        "salt_bad": -373.86044864760123
+      }
+    },
+    {
+      "N": 49,
+      "security_bits": 203.19039298336824,
+      "log2_advantage_bound": -171.19039298336824,
+      "samples": 279536,
+      "renyi_loss_bits": 5.645992813299122,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -210.3852901558848,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -178.18145692135084
+      },
+      "outer_log2_terms": {
+        "main": -172.1903929849014,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -588.8003276551636,
+        "salt_bad": -373.80032765516364
+      }
+    },
+    {
+      "N": 50,
+      "security_bits": 203.06874245158582,
+      "log2_advantage_bound": -171.06874245158582,
+      "samples": 284128,
+      "renyi_loss_bits": 5.738740792087792,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -210.35614381022526,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -178.15231057569133
+      },
+      "outer_log2_terms": {
+        "main": -172.068742452995,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -588.7414339661101,
+        "salt_bad": -373.7414339661101
+      }
+    },
+    {
+      "N": 51,
+      "security_bits": 202.94766795871595,
+      "log2_advantage_bound": -170.94766795871595,
+      "samples": 288720,
+      "renyi_loss_bits": 5.831488770876462,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -210.3275746580285,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -178.12374142349455
+      },
+      "outer_log2_terms": {
+        "main": -171.9476679600117,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -588.6837184682538,
+        "salt_bad": -373.6837184682538
+      }
+    },
+    {
+      "N": 52,
+      "security_bits": 202.8271471321678,
+      "log2_advantage_bound": -170.8271471321678,
+      "samples": 293312,
+      "renyi_loss_bits": 5.9242367496651305,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -210.2995602818589,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -178.09572704732494
+      },
+      "outer_log2_terms": {
+        "main": -171.8271471333597,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -588.6271349398874,
+        "salt_bad": -373.6271349398874
+      }
+    },
+    {
+      "N": 53,
+      "security_bits": 202.7071588779432,
+      "log2_advantage_bound": -170.7071588779432,
+      "samples": 297904,
+      "renyi_loss_bits": 6.016984728453801,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -210.2720795454368,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -178.06824631090285
+      },
+      "outer_log2_terms": {
+        "main": -171.70715887903998,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -588.5716398272957,
+        "salt_bad": -373.5716398272957
+      }
+    },
+    {
+      "N": 54,
+      "security_bits": 202.58768328502663,
+      "log2_advantage_bound": -170.58768328502663,
+      "samples": 302496,
+      "renyi_loss_bits": 6.10973270724247,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -210.24511249783654,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -178.04127926330256
+      },
+      "outer_log2_terms": {
+        "main": -171.58768328603625,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -588.5171920432733,
+        "salt_bad": -373.5171920432733
+      }
+    },
+    {
+      "N": 55,
+      "security_bits": 202.4687015385483,
+      "log2_advantage_bound": -170.4687015385483,
+      "samples": 307088,
+      "renyi_loss_bits": 6.20248068603114,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -210.21864028647533,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -178.01480705194137
+      },
+      "outer_log2_terms": {
+        "main": -171.468701539478,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -588.4637527843119,
+        "salt_bad": -373.46375278431185
+      }
+    },
+    {
+      "N": 56,
+      "security_bits": 202.35019584077125,
+      "log2_advantage_bound": -170.35019584077125,
+      "samples": 311680,
+      "renyi_loss_bits": 6.295228664819811,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -210.1926450779424,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -177.98881184340843
+      },
+      "outer_log2_terms": {
+        "main": -171.35019584162762,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -588.4112853644177,
+        "salt_bad": -373.4112853644177
+      }
+    },
+    {
+      "N": 57,
+      "security_bits": 202.23214933907244,
+      "log2_advantage_bound": -170.23214933907244,
+      "samples": 316272,
+      "renyi_loss_bits": 6.3879766436084795,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -210.16710998583525,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -177.9632767513013
+      },
+      "outer_log2_terms": {
+        "main": -171.23214933986154,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -588.3597550637776,
+        "salt_bad": -373.35975506377764
+      }
+    },
+    {
+      "N": 58,
+      "security_bits": 202.11454606018714,
+      "log2_advantage_bound": -170.11454606018714,
+      "samples": 320864,
+      "renyi_loss_bits": 6.480724622397149,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -210.14201900487242,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -177.93818577033846
+      },
+      "outer_log2_terms": {
+        "main": -171.11454606091445,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -588.3091289907077,
+        "salt_bad": -373.3091289907077
+      }
+    },
+    {
+      "N": 59,
+      "security_bits": 201.99737085007413,
+      "log2_advantage_bound": -169.99737085007413,
+      "samples": 325456,
+      "renyi_loss_bits": 6.573472601185818,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -210.11735695063817,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -177.9135237161042
+      },
+      "outer_log2_terms": {
+        "main": -170.99737085074472,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -588.2593759555106,
+        "salt_bad": -373.25937595551056
+      }
+    },
+    {
+      "N": 60,
+      "security_bits": 201.88060931883516,
+      "log2_advantage_bound": -169.88060931883516,
+      "samples": 330048,
+      "renyi_loss_bits": 6.666220579974488,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -210.09310940439147,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -177.8892761698575
+      },
+      "outer_log2_terms": {
+        "main": -170.8806093194536,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -588.2104663550297,
+        "salt_bad": -373.21046635502967
+      }
+    },
+    {
+      "N": 61,
+      "security_bits": 201.76424779018743,
+      "log2_advantage_bound": -169.76424779018743,
+      "samples": 334640,
+      "renyi_loss_bits": 6.758968558763159,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -210.06926266243713,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -177.86542942790317
+      },
+      "outer_log2_terms": {
+        "main": -170.76424779075796,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -588.1623720668285,
+        "salt_bad": -373.1623720668286
+      }
+    },
+    {
+      "N": 62,
+      "security_bits": 201.64827325504388,
+      "log2_advantage_bound": -169.64827325504388,
+      "samples": 339232,
+      "renyi_loss_bits": 6.851716537551828,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -210.04580368961314,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -177.84197045507915
+      },
+      "outer_log2_terms": {
+        "main": -170.64827325557033,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -588.1150663520502,
+        "salt_bad": -373.11506635205023
+      }
+    },
+    {
+      "N": 63,
+      "security_bits": 201.53267332880827,
+      "log2_advantage_bound": -169.53267332880827,
+      "samples": 343824,
+      "renyi_loss_bits": 6.944464516340497,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -210.0227200765001,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -177.81888684196613
+      },
+      "outer_log2_terms": {
+        "main": -170.5326733292942,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -588.0685237661132,
+        "salt_bad": -373.06852376611323
+      }
+    },
+    {
+      "N": 64,
+      "security_bits": 201.41743621203287,
+      "log2_advantage_bound": -169.41743621203287,
+      "samples": 348416,
+      "renyi_loss_bits": 7.037212495129166,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -210.0,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -177.79616676546604
+      },
+      "outer_log2_terms": {
+        "main": -170.41743621248148,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -588.0227200765,
+        "salt_bad": -373.0227200765001
+      }
+    },
+    {
+      "N": 65,
+      "security_bits": 201.30255065412638,
+      "log2_advantage_bound": -169.30255065412638,
+      "samples": 353008,
+      "renyi_loss_bits": 7.129960473917837,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.97763218697153,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -177.77379895243757
+      },
+      "outer_log2_terms": {
+        "main": -170.30255065454065,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -587.9776321869715,
+        "salt_bad": -372.97763218697156
+      }
+    },
+    {
+      "N": 66,
+      "security_bits": 201.18800591983273,
+      "log2_advantage_bound": -169.18800591983273,
+      "samples": 357600,
+      "renyi_loss_bits": 7.222708452706507,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.95560588064154,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -177.75177264610758
+      },
+      "outer_log2_terms": {
+        "main": -170.1880059202154,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -587.933238067613,
+        "salt_bad": -372.9332380676131
+      }
+    },
+    {
+      "N": 67,
+      "security_bits": 201.0737917582305,
+      "log2_advantage_bound": -169.0737917582305,
+      "samples": 362192,
+      "renyi_loss_bits": 7.315456431495176,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.93391080954223,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -177.73007757500827
+      },
+      "outer_log2_terms": {
+        "main": -170.07379175858404,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -587.8895166901838,
+        "salt_bad": -372.88951669018377
+      }
+    },
+    {
+      "N": 68,
+      "security_bits": 200.95989837402865,
+      "log2_advantage_bound": -168.95989837402865,
+      "samples": 366784,
+      "renyi_loss_bits": 7.408204410283846,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.91253715874967,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -177.70870392421568
+      },
+      "outer_log2_terms": {
+        "main": -169.95989837435536,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -587.8464479682918,
+        "salt_bad": -372.8464479682919
+      }
+    },
+    {
+      "N": 69,
+      "security_bits": 200.84631640095827,
+      "log2_advantage_bound": -168.84631640095827,
+      "samples": 371376,
+      "renyi_loss_bits": 7.500952389072516,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.89147554322184,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -177.68764230868788
+      },
+      "outer_log2_terms": {
+        "main": -169.84631640126022,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -587.8040127019715,
+        "salt_bad": -372.8040127019715
+      }
+    },
+    {
+      "N": 70,
+      "security_bits": 200.73303687707815,
+      "log2_advantage_bound": -168.73303687707815,
+      "samples": 375968,
+      "renyi_loss_bits": 7.593700367861185,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.87071698305505,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -177.66688374852106
+      },
+      "outer_log2_terms": {
+        "main": -169.7330368773573,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -587.7621925262769,
+        "salt_bad": -372.76219252627686
+      }
+    },
+    {
+      "N": 71,
+      "security_bits": 200.6200512218325,
+      "log2_advantage_bound": -168.6200512218325,
+      "samples": 380560,
+      "renyi_loss_bits": 7.686448346649855,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.8502528804953,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -177.64641964596137
+      },
+      "outer_log2_terms": {
+        "main": -169.62005122209064,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -587.7209698635504,
+        "salt_bad": -372.72096986355035
+      }
+    },
+    {
+      "N": 72,
+      "security_bits": 200.50735121471277,
+      "log2_advantage_bound": -168.50735121471277,
+      "samples": 385152,
+      "renyi_loss_bits": 7.779196325438524,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.83007499855768,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -177.62624176402375
+      },
+      "outer_log2_terms": {
+        "main": -169.5073512149515,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -587.680327879053,
+        "salt_bad": -372.680327879053
+      }
+    },
+    {
+      "N": 73,
+      "security_bits": 200.39492897539134,
+      "log2_advantage_bound": -168.39492897539134,
+      "samples": 389744,
+      "renyi_loss_bits": 7.871944304227195,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.81017544111998,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -177.60634220658602
+      },
+      "outer_log2_terms": {
+        "main": -169.39492897561217,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -587.6402504396776,
+        "salt_bad": -372.6402504396777
+      }
+    },
+    {
+      "N": 74,
+      "security_bits": 200.28277694520685,
+      "log2_advantage_bound": -168.28277694520685,
+      "samples": 394336,
+      "renyi_loss_bits": 7.964692283015864,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.79054663437105,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -177.5867133998371
+      },
+      "outer_log2_terms": {
+        "main": -169.28277694541117,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -587.600722075491,
+        "salt_bad": -372.60072207549103
+      }
+    },
+    {
+      "N": 75,
+      "security_bits": 200.1708878698923,
+      "log2_advantage_bound": -168.1708878698923,
+      "samples": 398928,
+      "renyi_loss_bits": 8.057440261804533,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.77118130950413,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -177.56734807497017
+      },
+      "outer_log2_terms": {
+        "main": -169.17088787008137,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -587.5617279438752,
+        "salt_bad": -372.56172794387516
+      }
+    },
+    {
+      "N": 76,
+      "security_bits": 200.05925478344673,
+      "log2_advantage_bound": -168.05925478344673,
+      "samples": 403520,
+      "renyi_loss_bits": 8.150188240593204,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.75207248655641,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -177.54823925202246
+      },
+      "outer_log2_terms": {
+        "main": -169.05925478362172,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -587.5232537960605,
+        "salt_bad": -372.52325379606054
+      }
+    },
+    {
+      "N": 77,
+      "security_bits": 199.94787099306157,
+      "log2_advantage_bound": -167.94787099306157,
+      "samples": 408112,
+      "renyi_loss_bits": 8.242936219381873,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.7332134593051,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -177.52938022477113
+      },
+      "outer_log2_terms": {
+        "main": -168.94787099322357,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -587.4852859458615,
+        "salt_bad": -372.4852859458615
+      }
+    },
+    {
+      "N": 78,
+      "security_bits": 199.8367300650195,
+      "log2_advantage_bound": -167.8367300650195,
+      "samples": 412704,
+      "renyi_loss_bits": 8.335684198170542,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.71459778113774,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -177.5107645466038
+      },
+      "outer_log2_terms": {
+        "main": -168.8367300651695,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -587.4478112404429,
+        "salt_bad": -372.44781124044283
+      }
+    },
+    {
+      "N": 79,
+      "security_bits": 199.72582581149106,
+      "log2_advantage_bound": -167.72582581149106,
+      "samples": 417296,
+      "renyi_loss_bits": 8.428432176959213,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.6962192518229,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -177.49238601728894
+      },
+      "outer_log2_terms": {
+        "main": -168.72582581162996,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -587.4108170329606,
+        "salt_bad": -372.41081703296067
+      }
+    },
+    {
+      "N": 80,
+      "security_bits": 199.6151522781625,
+      "log2_advantage_bound": -167.6151522781625,
+      "samples": 421888,
+      "renyi_loss_bits": 8.521180155747881,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.67807190511263,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -177.47423867057867
+      },
+      "outer_log2_terms": {
+        "main": -168.61515227829113,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -587.3742911569356,
+        "salt_bad": -372.37429115693556
+      }
+    },
+    {
+      "N": 81,
+      "security_bits": 199.50470373263147,
+      "log2_advantage_bound": -167.50470373263147,
+      "samples": 426480,
+      "renyi_loss_bits": 8.613928134536552,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.66014999711538,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -177.45631676258142
+      },
+      "outer_log2_terms": {
+        "main": -168.5047037327506,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -587.338221902228,
+        "salt_bad": -372.338221902228
+      }
+    },
+    {
+      "N": 82,
+      "security_bits": 199.3944746535151,
+      "log2_advantage_bound": -167.3944746535151,
+      "samples": 431072,
+      "renyi_loss_bits": 8.706676113325221,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.64244799538193,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -177.43861476084794
+      },
+      "outer_log2_terms": {
+        "main": -168.39447465362548,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -587.3025979924973,
+        "salt_bad": -372.3025979924973
+      }
+    },
+    {
+      "N": 83,
+      "security_bits": 199.28445972021805,
+      "log2_advantage_bound": -167.28445972021805,
+      "samples": 435664,
+      "renyi_loss_bits": 8.799424092113892,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.62496056865308,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -177.42112733411912
+      },
+      "outer_log2_terms": {
+        "main": -168.28445972032034,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -587.267408564035,
+        "salt_bad": -372.267408564035
+      }
+    },
+    {
+      "N": 84,
+      "security_bits": 199.17465380331345,
+      "log2_advantage_bound": -167.17465380331345,
+      "samples": 440256,
+      "renyi_loss_bits": 8.89217207090256,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.60768257722123,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -177.4038493426873
+      },
+      "outer_log2_terms": {
+        "main": -168.17465380340823,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -587.2326431458744,
+        "salt_bad": -372.2326431458743
+      }
+    },
+    {
+      "N": 85,
+      "security_bits": 199.06505195549286,
+      "log2_advantage_bound": -167.06505195549286,
+      "samples": 444848,
+      "renyi_loss_bits": 8.98492004969123,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.5906090638623,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -177.38677582932834
+      },
+      "outer_log2_terms": {
+        "main": -168.0650519555807,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -587.1982916410835,
+        "salt_bad": -372.19829164108353
+      }
+    },
+    {
+      "N": 86,
+      "security_bits": 198.95564940304564,
+      "log2_advantage_bound": -166.95564940304564,
+      "samples": 449440,
+      "renyi_loss_bits": 9.0776680284799,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.5737352452979,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -177.36990201076395
+      },
+      "outer_log2_terms": {
+        "main": -167.95564940312707,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -587.1643443091602,
+        "salt_bad": -372.1643443091602
+      }
+    },
+    {
+      "N": 87,
+      "security_bits": 198.84644153783088,
+      "log2_advantage_bound": -166.84644153783088,
+      "samples": 454032,
+      "renyi_loss_bits": 9.170416007268571,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.55705650415126,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -177.3532232696173
+      },
+      "outer_log2_terms": {
+        "main": -167.84644153790637,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -587.1307917494491,
+        "salt_bad": -372.13079174944914
+      }
+    },
+    {
+      "N": 88,
+      "security_bits": 198.73742390970807,
+      "log2_advantage_bound": -166.73742390970807,
+      "samples": 458624,
+      "renyi_loss_bits": 9.26316398605724,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.5405683813627,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -177.33673514682874
+      },
+      "outer_log2_terms": {
+        "main": -167.73742390977807,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -587.0976248855139,
+        "salt_bad": -372.097624885514
+      }
+    },
+    {
+      "N": 89,
+      "security_bits": 198.62859221939536,
+      "log2_advantage_bound": -166.62859221939536,
+      "samples": 463216,
+      "renyi_loss_bits": 9.355911964845909,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.5242665690336,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -177.32043333449963
+      },
+      "outer_log2_terms": {
+        "main": -167.62859221946027,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -587.0648349503963,
+        "salt_bad": -372.0648349503963
+      }
+    },
+    {
+      "N": 90,
+      "security_bits": 198.51994231172716,
+      "log2_advantage_bound": -166.51994231172716,
+      "samples": 467808,
+      "renyi_loss_bits": 9.448659943634578,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.50814690367034,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -177.30431366913638
+      },
+      "outer_log2_terms": {
+        "main": -167.51994231178736,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -587.0324134727039,
+        "salt_bad": -372.0324134727039
+      }
+    },
+    {
+      "N": 91,
+      "security_bits": 198.41147016928366,
+      "log2_advantage_bound": -166.41147016928366,
+      "samples": 472400,
+      "renyi_loss_bits": 9.541407922423248,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.4922053598013,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -177.28837212526736
+      },
+      "outer_log2_terms": {
+        "main": -167.4114701693395,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -587.0003522634717,
+        "salt_bad": -372.00035226347165
+      }
+    },
+    {
+      "N": 92,
+      "security_bits": 198.3031719063692,
+      "log2_advantage_bound": -166.3031719063692,
+      "samples": 476992,
+      "renyi_loss_bits": 9.63415590121192,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.47643804394298,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -177.27260480940902
+      },
+      "outer_log2_terms": {
+        "main": -167.303171906421,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -586.9686434037443,
+        "salt_bad": -371.9686434037443
+      }
+    },
+    {
+      "N": 93,
+      "security_bits": 198.19504376331568,
+      "log2_advantage_bound": -166.19504376331568,
+      "samples": 481584,
+      "renyi_loss_bits": 9.726903880000588,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.46084118889198,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -177.25700795435802
+      },
+      "outer_log2_terms": {
+        "main": -167.19504376336374,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -586.937279232835,
+        "salt_bad": -371.93727923283495
+      }
+    },
+    {
+      "N": 94,
+      "security_bits": 198.08708210109057,
+      "log2_advantage_bound": -166.08708210109057,
+      "samples": 486176,
+      "renyi_loss_bits": 9.819651858789259,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.44541114832236,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -177.2415779137884
+      },
+      "outer_log2_terms": {
+        "main": -167.08708210113517,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -586.9062523372144,
+        "salt_bad": -371.9062523372143
+      }
+    },
+    {
+      "N": 95,
+      "security_bits": 197.9792833961907,
+      "log2_advantage_bound": -165.9792833961907,
+      "samples": 490768,
+      "renyi_loss_bits": 9.912399837577928,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.43014439166905,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -177.2263111571351
+      },
+      "outer_log2_terms": {
+        "main": -166.9792833962321,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -586.8755555399914,
+        "salt_bad": -371.8755555399914
+      }
+    },
+    {
+      "N": 96,
+      "security_bits": 197.87164423580293,
+      "log2_advantage_bound": -165.87164423580293,
+      "samples": 495360,
+      "renyi_loss_bits": 10.005147816366597,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.41503749927884,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -177.21120426474488
+      },
+      "outer_log2_terms": {
+        "main": -166.87164423584136,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -586.8451818909479,
+        "salt_bad": -371.8451818909479
+      }
+    },
+    {
+      "N": 97,
+      "security_bits": 197.76416131321577,
+      "log2_advantage_bound": -165.76416131321577,
+      "samples": 499952,
+      "renyi_loss_bits": 10.097895795155267,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.40008715781286,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -177.1962539232789
+      },
+      "outer_log2_terms": {
+        "main": -166.76416131325144,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -586.8151246570917,
+        "salt_bad": -371.8151246570917
+      }
+    },
+    {
+      "N": 98,
+      "security_bits": 197.65683142346634,
+      "log2_advantage_bound": -165.65683142346634,
+      "samples": 504544,
+      "renyi_loss_bits": 10.190643773943936,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.3852901558848,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -177.18145692135084
+      },
+      "outer_log2_terms": {
+        "main": -166.65683142349945,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -586.7853773136976,
+        "salt_bad": -371.78537731369767
+      }
+    },
+    {
+      "N": 99,
+      "security_bits": 197.5496514592082,
+      "log2_advantage_bound": -165.5496514592082,
+      "samples": 509136,
+      "renyi_loss_bits": 10.283391752732607,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.37064337992038,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -177.16681014538642
+      },
+      "outer_log2_terms": {
+        "main": -166.54965145923893,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -586.7559335358052,
+        "salt_bad": -371.7559335358052
+      }
+    },
+    {
+      "N": 100,
+      "security_bits": 197.44261840678698,
+      "log2_advantage_bound": -165.44261840678698,
+      "samples": 513728,
+      "renyi_loss_bits": 10.376139731521276,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.35614381022526,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -177.15231057569133
+      },
+      "outer_log2_terms": {
+        "main": -166.4426184068155,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -586.7267871901456,
+        "salt_bad": -371.72678719014567
+      }
+    },
+    {
+      "N": 101,
+      "security_bits": 197.3357293425111,
+      "log2_advantage_bound": -165.3357293425111,
+      "samples": 518320,
+      "renyi_loss_bits": 10.468887710309945,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.3417885172482,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -177.13795528271424
+      },
+      "outer_log2_terms": {
+        "main": -166.33572934253758,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -586.6979323274735,
+        "salt_bad": -371.6979323274735
+      }
+    },
+    {
+      "N": 102,
+      "security_bits": 197.22898142910643,
+      "log2_advantage_bound": -165.22898142910643,
+      "samples": 522912,
+      "renyi_loss_bits": 10.561635689098615,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.3275746580285,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -177.12374142349455
+      },
+      "outer_log2_terms": {
+        "main": -166.22898142913104,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -586.6693631752767,
+        "salt_bad": -371.6693631752767
+      }
+    },
+    {
+      "N": 103,
+      "security_bits": 197.1223719123436,
+      "log2_advantage_bound": -165.1223719123436,
+      "samples": 527504,
+      "renyi_loss_bits": 10.654383667887284,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.31349947281677,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -177.1096662382828
+      },
+      "outer_log2_terms": {
+        "main": -166.12237191236645,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -586.6410741308453,
+        "salt_bad": -371.6410741308453
+      }
+    },
+    {
+      "N": 104,
+      "security_bits": 197.01589811782853,
+      "log2_advantage_bound": -165.01589811782853,
+      "samples": 532096,
+      "renyi_loss_bits": 10.747131646675955,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.2995602818589,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -177.09572704732494
+      },
+      "outer_log2_terms": {
+        "main": -166.01589811784976,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -586.6130597546758,
+        "salt_bad": -371.6130597546757
+      }
+    },
+    {
+      "N": 105,
+      "security_bits": 196.90955744794636,
+      "log2_advantage_bound": -164.90955744794636,
+      "samples": 536688,
+      "renyi_loss_bits": 10.839879625464624,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.28575448233389,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -177.08192124779993
+      },
+      "outer_log2_terms": {
+        "main": -165.90955744796608,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -586.5853147641928,
+        "salt_bad": -371.5853147641928
+      }
+    },
+    {
+      "N": 106,
+      "security_bits": 196.80334737895032,
+      "log2_advantage_bound": -164.80334737895032,
+      "samples": 541280,
+      "renyi_loss_bits": 10.932627604253293,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.2720795454368,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -177.06824631090285
+      },
+      "outer_log2_terms": {
+        "main": -165.80334737896865,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -586.5578340277707,
+        "salt_bad": -371.5578340277707
+      }
+    },
+    {
+      "N": 107,
+      "security_bits": 196.69726545818713,
+      "log2_advantage_bound": -164.69726545818713,
+      "samples": 545872,
+      "renyi_loss_bits": 11.025375583041964,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.25853301359885,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -177.0546997790649
+      },
+      "outer_log2_terms": {
+        "main": -165.69726545820416,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -586.5306125590357,
+        "salt_bad": -371.53061255903566
+      }
+    },
+    {
+      "N": 108,
+      "security_bits": 196.59130930145182,
+      "log2_advantage_bound": -164.59130930145182,
+      "samples": 550464,
+      "renyi_loss_bits": 11.118123561830632,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.24511249783654,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -177.04127926330256
+      },
+      "outer_log2_terms": {
+        "main": -165.59130930146762,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -586.5036455114354,
+        "salt_bad": -371.50364551143537
+      }
+    },
+    {
+      "N": 109,
+      "security_bits": 196.4854765904638,
+      "log2_advantage_bound": -164.4854765904638,
+      "samples": 555056,
+      "renyi_loss_bits": 11.210871540619303,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.23181567522306,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -177.02798244068913
+      },
+      "outer_log2_terms": {
+        "main": -165.4854765904785,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -586.4769281730596,
+        "salt_bad": -371.4769281730596
+      }
+    },
+    {
+      "N": 110,
+      "security_bits": 196.3797650704589,
+      "log2_advantage_bound": -164.3797650704589,
+      "samples": 559648,
+      "renyi_loss_bits": 11.303619519407974,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.21864028647533,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -177.01480705194137
+      },
+      "outer_log2_terms": {
+        "main": -165.37976507047256,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -586.4504559616985,
+        "salt_bad": -371.4504559616984
+      }
+    },
+    {
+      "N": 111,
+      "security_bits": 196.27417254789015,
+      "log2_advantage_bound": -164.27417254789015,
+      "samples": 564240,
+      "renyi_loss_bits": 11.396367498196643,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.2055841336499,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -177.00175089911593
+      },
+      "outer_log2_terms": {
+        "main": -165.27417254790285,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -586.4242244201253,
+        "salt_bad": -371.42422442012526
+      }
+    },
+    {
+      "N": 112,
+      "security_bits": 196.168696888231,
+      "log2_advantage_bound": -164.168696888231,
+      "samples": 568832,
+      "renyi_loss_bits": 11.489115476985312,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.1926450779424,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -176.98881184340843
+      },
+      "outer_log2_terms": {
+        "main": -165.1686968882428,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -586.3982292115923,
+        "salt_bad": -371.3982292115923
+      }
+    },
+    {
+      "N": 113,
+      "security_bits": 196.0633360138775,
+      "log2_advantage_bound": -164.0633360138775,
+      "samples": 573424,
+      "renyi_loss_bits": 11.581863455773982,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.17982103758482,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -176.97598780305086
+      },
+      "outer_log2_terms": {
+        "main": -165.06333601388846,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -586.3724661155272,
+        "salt_bad": -371.37246611552723
+      }
+    },
+    {
+      "N": 114,
+      "security_bits": 195.95808790214147,
+      "log2_advantage_bound": -163.95808790214147,
+      "samples": 578016,
+      "renyi_loss_bits": 11.674611434562651,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.16710998583525,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -176.9632767513013
+      },
+      "outer_log2_terms": {
+        "main": -164.95808790215168,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -586.3469310234201,
+        "salt_bad": -371.3469310234201
+      }
+    },
+    {
+      "N": 115,
+      "security_bits": 195.8529505833325,
+      "log2_advantage_bound": -163.8529505833325,
+      "samples": 582608,
+      "renyi_loss_bits": 11.76735941335132,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.15450994905564,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -176.95067671452165
+      },
+      "outer_log2_terms": {
+        "main": -164.852950583342,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -586.3216199348909,
+        "salt_bad": -371.32161993489086
+      }
+    },
+    {
+      "N": 116,
+      "security_bits": 195.74792213892226,
+      "log2_advantage_bound": -163.74792213892226,
+      "samples": 587200,
+      "renyi_loss_bits": 11.86010739213999,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.14201900487242,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -176.93818577033846
+      },
+      "outer_log2_terms": {
+        "main": -164.74792213893107,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -586.296528953928,
+        "salt_bad": -371.29652895392803
+      }
+    },
+    {
+      "N": 117,
+      "security_bits": 195.6430006997876,
+      "log2_advantage_bound": -163.6430006997876,
+      "samples": 591792,
+      "renyi_loss_bits": 11.95285537092866,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.1296352804166,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -176.92580204588262
+      },
+      "outer_log2_terms": {
+        "main": -164.64300069979578,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -586.2716542852891,
+        "salt_bad": -371.271654285289
+      }
+    },
+    {
+      "N": 118,
+      "security_bits": 195.53818444452904,
+      "log2_advantage_bound": -163.53818444452904,
+      "samples": 596384,
+      "renyi_loss_bits": 12.045603349717329,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.11735695063817,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -176.9135237161042
+      },
+      "outer_log2_terms": {
+        "main": -164.53818444453665,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -586.2469922310547,
+        "salt_bad": -371.2469922310548
+      }
+    },
+    {
+      "N": 119,
+      "security_bits": 195.43347159785947,
+      "log2_advantage_bound": -163.43347159785947,
+      "samples": 600976,
+      "renyi_loss_bits": 12.138351328506001,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.10518223669206,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -176.9013490021581
+      },
+      "outer_log2_terms": {
+        "main": -164.43347159786654,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -586.2225391873302,
+        "salt_bad": -371.2225391873302
+      }
+    },
+    {
+      "N": 120,
+      "security_bits": 195.32886042906077,
+      "log2_advantage_bound": -163.32886042906077,
+      "samples": 605568,
+      "renyi_loss_bits": 12.23109930729467,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.09310940439147,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -176.8892761698575
+      },
+      "outer_log2_terms": {
+        "main": -164.32886042906736,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -586.1982916410835,
+        "salt_bad": -371.19829164108353
+      }
+    },
+    {
+      "N": 121,
+      "security_bits": 195.22434925050425,
+      "log2_advantage_bound": -163.22434925050425,
+      "samples": 610160,
+      "renyi_loss_bits": 12.323847286083339,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.0811367627254,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -176.87730352819145
+      },
+      "outer_log2_terms": {
+        "main": -164.2243492505104,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -586.1742461671168,
+        "salt_bad": -371.1742461671169
+      }
+    },
+    {
+      "N": 122,
+      "security_bits": 195.11993641623198,
+      "log2_advantage_bound": -163.11993641623198,
+      "samples": 614752,
+      "renyi_loss_bits": 12.416595264872008,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.06926266243713,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -176.86542942790317
+      },
+      "outer_log2_terms": {
+        "main": -164.1199364162377,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -586.1503994251625,
+        "salt_bad": -371.1503994251625
+      }
+    },
+    {
+      "N": 123,
+      "security_bits": 195.01562032059604,
+      "log2_advantage_bound": -163.01562032059604,
+      "samples": 619344,
+      "renyi_loss_bits": 12.509343243660679,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.05748549466077,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -176.8536522601268
+      },
+      "outer_log2_terms": {
+        "main": -164.01562032060136,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -586.1267481570978,
+        "salt_bad": -371.1267481570979
+      }
+    },
+    {
+      "N": 124,
+      "security_bits": 194.91139939695307,
+      "log2_advantage_bound": -162.91139939695307,
+      "samples": 623936,
+      "renyi_loss_bits": 12.602091222449348,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.04580368961314,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -176.84197045507915
+      },
+      "outer_log2_terms": {
+        "main": -163.91139939695802,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -586.1032891842739,
+        "salt_bad": -371.1032891842739
+      }
+    },
+    {
+      "N": 125,
+      "security_bits": 194.80727211641104,
+      "log2_advantage_bound": -162.80727211641104,
+      "samples": 628528,
+      "renyi_loss_bits": 12.694839201238016,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.03421571533792,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -176.83038248080396
+      },
+      "outer_log2_terms": {
+        "main": -163.80727211641565,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -586.080019404951,
+        "salt_bad": -371.08001940495103
+      }
+    },
+    {
+      "N": 126,
+      "security_bits": 194.70323698662568,
+      "log2_advantage_bound": -162.70323698662568,
+      "samples": 633120,
+      "renyi_loss_bits": 12.787587180026689,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.0227200765001,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -176.81888684196613
+      },
+      "outer_log2_terms": {
+        "main": -163.70323698662995,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -586.056935791838,
+        "salt_bad": -371.056935791838
+      }
+    },
+    {
+      "N": 127,
+      "security_bits": 194.59929255064515,
+      "log2_advantage_bound": -162.59929255064515,
+      "samples": 637712,
+      "renyi_loss_bits": 12.880335158815358,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.01131531322784,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -176.80748207869388
+      },
+      "outer_log2_terms": {
+        "main": -163.59929255064912,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -586.0340353897279,
+        "salt_bad": -371.03403538972793
+      }
+    },
+    {
+      "N": 128,
+      "security_bits": 194.4954373857997,
+      "log2_advantage_bound": -162.4954373857997,
+      "samples": 642304,
+      "renyi_loss_bits": 12.973083137604027,
+      "inner_log2_terms": {
+        "qG_dQ": -303.7614652092347,
+        "N_over_M": -209.0,
+        "two_T_qG_over_M": -201,
+        "two_cpa": -176.79616676546604
+      },
+      "outer_log2_terms": {
+        "main": -163.4954373858034,
+        "dP": -317.9510823511591,
+        "qH_over_M": -202,
+        "message_salt_collision": -586.0113153132279,
+        "salt_bad": -371.01131531322784
+      }
+    }
+  ],
+  "frodo": [
+    {
+      "N": 1,
+      "security_bits": 192.8433066015901,
+      "log2_advantage_bound": -160.8433066015901,
+      "samples": 31296,
+      "renyi_loss_bits": 0.6321081759952539,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -192.0,
+        "q_delta": -185.6,
+        "two_cpa": -162.8
+      },
+      "outer_log2_terms": {
+        "main": -161.8433263498259,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": null
+      }
+    },
+    {
+      "N": 2,
+      "security_bits": 191.52936623167972,
+      "log2_advantage_bound": -159.52936623167972,
+      "samples": 46976,
+      "renyi_loss_bits": 0.9488085913711993,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -191.0,
+        "q_delta": -185.6,
+        "two_cpa": -161.8
+      },
+      "outer_log2_terms": {
+        "main": -160.52937417479862,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -575.0
+      }
+    },
+    {
+      "N": 3,
+      "security_bits": 190.62954860926382,
+      "log2_advantage_bound": -158.62954860926382,
+      "samples": 62656,
+      "renyi_loss_bits": 1.2655090067471444,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -190.41503749927884,
+        "q_delta": -185.6,
+        "two_cpa": -161.21503749927885
+      },
+      "outer_log2_terms": {
+        "main": -159.62955286640855,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -573.4150374992788
+      }
+    },
+    {
+      "N": 4,
+      "security_bits": 189.89929500270563,
+      "log2_advantage_bound": -157.89929500270563,
+      "samples": 78336,
+      "renyi_loss_bits": 1.5822094221230896,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -190.0,
+        "q_delta": -185.6,
+        "two_cpa": -160.8
+      },
+      "outer_log2_terms": {
+        "main": -158.8992975689022,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -572.4150374992788
+      }
+    },
+    {
+      "N": 5,
+      "security_bits": 189.26195615077162,
+      "log2_advantage_bound": -157.26195615077162,
+      "samples": 94016,
+      "renyi_loss_bits": 1.8989098374990352,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -189.67807190511263,
+        "q_delta": -185.6,
+        "two_cpa": -160.47807190511264
+      },
+      "outer_log2_terms": {
+        "main": -158.26195780057304,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -571.6780719051126
+      }
+    },
+    {
+      "N": 6,
+      "security_bits": 188.6833890009119,
+      "log2_advantage_bound": -156.6833890009119,
+      "samples": 109696,
+      "renyi_loss_bits": 2.2156102528749804,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -189.41503749927884,
+        "q_delta": -185.6,
+        "two_cpa": -160.21503749927885
+      },
+      "outer_log2_terms": {
+        "main": -157.68339010566572,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -571.0931094043915
+      }
+    },
+    {
+      "N": 7,
+      "security_bits": 188.14538016282765,
+      "log2_advantage_bound": -156.14538016282765,
+      "samples": 125376,
+      "renyi_loss_bits": 2.5323106682509255,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -189.1926450779424,
+        "q_delta": -185.6,
+        "two_cpa": -159.9926450779424
+      },
+      "outer_log2_terms": {
+        "main": -157.14538092369452,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -570.6076825772212
+      }
+    },
+    {
+      "N": 8,
+      "security_bits": 187.63705768825793,
+      "log2_advantage_bound": -155.63705768825793,
+      "samples": 141056,
+      "renyi_loss_bits": 2.8490110836268707,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -189.0,
+        "q_delta": -185.6,
+        "two_cpa": -159.8
+      },
+      "outer_log2_terms": {
+        "main": -156.6370582231773,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -570.1926450779424
+      }
+    },
+    {
+      "N": 9,
+      "security_bits": 187.1514088654744,
+      "log2_advantage_bound": -155.1514088654744,
+      "samples": 156736,
+      "renyi_loss_bits": 3.165711499002816,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -188.83007499855768,
+        "q_delta": -185.6,
+        "two_cpa": -159.6300749985577
+      },
+      "outer_log2_terms": {
+        "main": -156.15140924750085,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -569.8300749985576
+      }
+    },
+    {
+      "N": 10,
+      "security_bits": 186.6836454217117,
+      "log2_advantage_bound": -154.6836454217117,
+      "samples": 172416,
+      "renyi_loss_bits": 3.482411914378761,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -188.67807190511263,
+        "q_delta": -185.6,
+        "two_cpa": -159.47807190511264
+      },
+      "outer_log2_terms": {
+        "main": -155.68364569794917,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -569.5081469036703
+      }
+    },
+    {
+      "N": 11,
+      "security_bits": 186.23035205315426,
+      "log2_advantage_bound": -154.23035205315426,
+      "samples": 188096,
+      "renyi_loss_bits": 3.7991123297547067,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -188.5405683813627,
+        "q_delta": -185.6,
+        "two_cpa": -159.34056838136271
+      },
+      "outer_log2_terms": {
+        "main": -155.23035225491083,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -569.2186402864753
+      }
+    },
+    {
+      "N": 12,
+      "security_bits": 185.78900701163948,
+      "log2_advantage_bound": -153.78900701163948,
+      "samples": 203776,
+      "renyi_loss_bits": 4.115812745130651,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -188.41503749927884,
+        "q_delta": -185.6,
+        "two_cpa": -159.21503749927885
+      },
+      "outer_log2_terms": {
+        "main": -154.78900716022264,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -568.9556058806415
+      }
+    },
+    {
+      "N": 13,
+      "security_bits": 185.35769524496382,
+      "log2_advantage_bound": -153.35769524496382,
+      "samples": 219456,
+      "renyi_loss_bits": 4.4325131605065975,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -188.2995602818589,
+        "q_delta": -185.6,
+        "two_cpa": -159.0995602818589
+      },
+      "outer_log2_terms": {
+        "main": -154.35769535515118,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -568.7145977811377
+      }
+    },
+    {
+      "N": 14,
+      "security_bits": 184.93492814700716,
+      "log2_advantage_bound": -152.93492814700716,
+      "samples": 235136,
+      "renyi_loss_bits": 4.749213575882543,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -188.1926450779424,
+        "q_delta": -185.6,
+        "two_cpa": -158.9926450779424
+      },
+      "outer_log2_terms": {
+        "main": -153.9349282292061,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -568.4922053598013
+      }
+    },
+    {
+      "N": 15,
+      "security_bits": 184.51952564465202,
+      "log2_advantage_bound": -152.51952564465202,
+      "samples": 250816,
+      "renyi_loss_bits": 5.065913991258488,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -188.09310940439147,
+        "q_delta": -185.6,
+        "two_cpa": -158.8931094043915
+      },
+      "outer_log2_terms": {
+        "main": -153.51952570628563,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -568.2857544823339
+      }
+    },
+    {
+      "N": 16,
+      "security_bits": 184.11053641683895,
+      "log2_advantage_bound": -152.11053641683895,
+      "samples": 266496,
+      "renyi_loss_bits": 5.382614406634433,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -188.0,
+        "q_delta": -185.6,
+        "two_cpa": -158.8
+      },
+      "outer_log2_terms": {
+        "main": -153.11053646325837,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -568.0931094043915
+      }
+    },
+    {
+      "N": 17,
+      "security_bits": 183.7071823425488,
+      "log2_advantage_bound": -151.7071823425488,
+      "samples": 282176,
+      "renyi_loss_bits": 5.699314822010378,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -187.91253715874967,
+        "q_delta": -185.6,
+        "two_cpa": -158.71253715874968
+      },
+      "outer_log2_terms": {
+        "main": -152.70718237764643,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -567.9125371587497
+      }
+    },
+    {
+      "N": 18,
+      "security_bits": 183.30881885126843,
+      "log2_advantage_bound": -151.30881885126843,
+      "samples": 297856,
+      "renyi_loss_bits": 6.016015237386324,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -187.83007499855768,
+        "q_delta": -185.6,
+        "two_cpa": -158.6300749985577
+      },
+      "outer_log2_terms": {
+        "main": -152.30881887789766,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -567.7426121573073
+      }
+    },
+    {
+      "N": 19,
+      "security_bits": 182.9149060077594,
+      "log2_advantage_bound": -150.9149060077594,
+      "samples": 313536,
+      "renyi_loss_bits": 6.332715652762268,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -187.75207248655641,
+        "q_delta": -185.6,
+        "two_cpa": -158.55207248655643
+      },
+      "outer_log2_terms": {
+        "main": -151.9149060280259,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -567.5821474851141
+      }
+    },
+    {
+      "N": 20,
+      "security_bits": 182.52498702221885,
+      "log2_advantage_bound": -150.52498702221885,
+      "samples": 329216,
+      "renyi_loss_bits": 6.649416068138214,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -187.67807190511263,
+        "q_delta": -185.6,
+        "two_cpa": -158.47807190511264
+      },
+      "outer_log2_terms": {
+        "main": -151.5249870376857,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -567.430144391669
+      }
+    },
+    {
+      "N": 21,
+      "security_bits": 182.13867200898753,
+      "log2_advantage_bound": -150.13867200898753,
+      "samples": 344896,
+      "renyi_loss_bits": 6.966116483514159,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -187.60768257722123,
+        "q_delta": -185.6,
+        "two_cpa": -158.40768257722124
+      },
+      "outer_log2_terms": {
+        "main": -151.1386720208209,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -567.2857544823339
+      }
+    },
+    {
+      "N": 22,
+      "security_bits": 181.75562552693145,
+      "log2_advantage_bound": -149.75562552693145,
+      "samples": 360576,
+      "renyi_loss_bits": 7.282816898890105,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -187.5405683813627,
+        "q_delta": -185.6,
+        "two_cpa": -158.34056838136271
+      },
+      "outer_log2_terms": {
+        "main": -150.75562553600548,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -567.148250958584
+      }
+    },
+    {
+      "N": 23,
+      "security_bits": 181.37555689170512,
+      "log2_advantage_bound": -149.37555689170512,
+      "samples": 376256,
+      "renyi_loss_bits": 7.59951731426605,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -187.47643804394298,
+        "q_delta": -185.6,
+        "two_cpa": -158.276438043943
+      },
+      "outer_log2_terms": {
+        "main": -150.37555689867762,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -567.0170064253057
+      }
+    },
+    {
+      "N": 24,
+      "security_bits": 180.99821255132196,
+      "log2_advantage_bound": -148.99821255132196,
+      "samples": 391936,
+      "renyi_loss_bits": 7.916217729641994,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -187.41503749927884,
+        "q_delta": -185.6,
+        "two_cpa": -158.21503749927885
+      },
+      "outer_log2_terms": {
+        "main": -149.99821255668977,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -566.8914755432219
+      }
+    },
+    {
+      "N": 25,
+      "security_bits": 180.6233700191712,
+      "log2_advantage_bound": -148.6233700191712,
+      "samples": 407616,
+      "renyi_loss_bits": 8.23291814501794,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -187.35614381022526,
+        "q_delta": -185.6,
+        "two_cpa": -158.15614381022527
+      },
+      "outer_log2_terms": {
+        "main": -149.6233700233108,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -566.7711813095041
+      }
+    },
+    {
+      "N": 26,
+      "security_bits": 180.25083299765092,
+      "log2_advantage_bound": -148.25083299765092,
+      "samples": 423296,
+      "renyi_loss_bits": 8.549618560393885,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -187.2995602818589,
+        "q_delta": -185.6,
+        "two_cpa": -158.0995602818589
+      },
+      "outer_log2_terms": {
+        "main": -149.25083300084844,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -566.6557040920842
+      }
+    },
+    {
+      "N": 27,
+      "security_bits": 179.8804274225907,
+      "log2_advantage_bound": -147.8804274225907,
+      "samples": 438976,
+      "renyi_loss_bits": 8.86631897576983,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -187.24511249783654,
+        "q_delta": -185.6,
+        "two_cpa": -158.04511249783656
+      },
+      "outer_log2_terms": {
+        "main": -148.8804274250642,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -566.5446727796955
+      }
+    },
+    {
+      "N": 28,
+      "security_bits": 179.5119982273915,
+      "log2_advantage_bound": -147.5119982273915,
+      "samples": 454656,
+      "renyi_loss_bits": 9.183019391145777,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -187.1926450779424,
+        "q_delta": -185.6,
+        "two_cpa": -157.9926450779424
+      },
+      "outer_log2_terms": {
+        "main": -148.51199822930752,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -566.437757575779
+      }
+    },
+    {
+      "N": 29,
+      "security_bits": 179.14540667524062,
+      "log2_advantage_bound": -147.14540667524062,
+      "samples": 470336,
+      "renyi_loss_bits": 9.499719806521721,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -187.14201900487242,
+        "q_delta": -185.6,
+        "two_cpa": -157.94201900487244
+      },
+      "outer_log2_terms": {
+        "main": -148.1454066767267,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -566.3346640828148
+      }
+    },
+    {
+      "N": 30,
+      "security_bits": 178.7805281437766,
+      "log2_advantage_bound": -146.7805281437766,
+      "samples": 486016,
+      "renyi_loss_bits": 9.816420221897665,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -187.09310940439147,
+        "q_delta": -185.6,
+        "two_cpa": -157.8931094043915
+      },
+      "outer_log2_terms": {
+        "main": -147.7805281449306,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -566.2351284092639
+      }
+    },
+    {
+      "N": 31,
+      "security_bits": 178.41725027313444,
+      "log2_advantage_bound": -146.41725027313444,
+      "samples": 501696,
+      "renyi_loss_bits": 10.133120637273612,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -187.04580368961314,
+        "q_delta": -185.6,
+        "two_cpa": -157.84580368961315
+      },
+      "outer_log2_terms": {
+        "main": -147.41725027403157,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -566.1389130940046
+      }
+    },
+    {
+      "N": 32,
+      "security_bits": 178.0554714081121,
+      "log2_advantage_bound": -146.0554714081121,
+      "samples": 517376,
+      "renyi_loss_bits": 10.449821052649558,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -187.0,
+        "q_delta": -185.6,
+        "two_cpa": -157.8
+      },
+      "outer_log2_terms": {
+        "main": -147.05547140881026,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -566.0458036896132
+      }
+    },
+    {
+      "N": 33,
+      "security_bits": 177.69509928012556,
+      "log2_advantage_bound": -145.69509928012556,
+      "samples": 533056,
+      "renyi_loss_bits": 10.766521468025502,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -186.95560588064154,
+        "q_delta": -185.6,
+        "two_cpa": -157.75560588064155
+      },
+      "outer_log2_terms": {
+        "main": -146.69509928066938,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -565.9556058806415
+      }
+    },
+    {
+      "N": 34,
+      "security_bits": 177.33604988598063,
+      "log2_advantage_bound": -145.33604988598063,
+      "samples": 548736,
+      "renyi_loss_bits": 11.083221883401448,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -186.91253715874967,
+        "q_delta": -185.6,
+        "two_cpa": -157.71253715874968
+      },
+      "outer_log2_terms": {
+        "main": -146.33604988640465,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -565.8681430393913
+      }
+    },
+    {
+      "N": 35,
+      "security_bits": 176.97824652921514,
+      "log2_advantage_bound": -144.97824652921514,
+      "samples": 564416,
+      "renyi_loss_bits": 11.399922298777392,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -186.87071698305505,
+        "q_delta": -185.6,
+        "two_cpa": -157.67071698305506
+      },
+      "outer_log2_terms": {
+        "main": -145.97824652954603,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -565.7832541418047
+      }
+    },
+    {
+      "N": 36,
+      "security_bits": 176.62161899651997,
+      "log2_advantage_bound": -144.62161899651997,
+      "samples": 580096,
+      "renyi_loss_bits": 11.716622714153338,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -186.83007499855768,
+        "q_delta": -185.6,
+        "two_cpa": -157.6300749985577
+      },
+      "outer_log2_terms": {
+        "main": -145.62161899677838,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -565.7007919816127
+      }
+    },
+    {
+      "N": 37,
+      "security_bits": 176.26610284702454,
+      "log2_advantage_bound": -144.26610284702454,
+      "samples": 595776,
+      "renyi_loss_bits": 12.033323129529283,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -186.79054663437105,
+        "q_delta": -185.6,
+        "two_cpa": -157.59054663437107
+      },
+      "outer_log2_terms": {
+        "main": -145.2661028472265,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -565.6206216329288
+      }
+    },
+    {
+      "N": 38,
+      "security_bits": 175.91163879637955,
+      "log2_advantage_bound": -143.91163879637955,
+      "samples": 611456,
+      "renyi_loss_bits": 12.350023544905227,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -186.75207248655641,
+        "q_delta": -185.6,
+        "two_cpa": -157.55207248655643
+      },
+      "outer_log2_terms": {
+        "main": -144.91163879653752,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -565.5426191209275
+      }
+    },
+    {
+      "N": 39,
+      "security_bits": 175.55817218085787,
+      "log2_advantage_bound": -143.55817218085787,
+      "samples": 627136,
+      "renyi_loss_bits": 12.666723960281175,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -186.71459778113774,
+        "q_delta": -185.6,
+        "two_cpa": -157.51459778113775
+      },
+      "outer_log2_terms": {
+        "main": -144.5581721809815,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -565.4666702676941
+      }
+    },
+    {
+      "N": 40,
+      "security_bits": 175.20565248931362,
+      "log2_advantage_bound": -143.20565248931362,
+      "samples": 642816,
+      "renyi_loss_bits": 12.983424375657119,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -186.67807190511263,
+        "q_delta": -185.6,
+        "two_cpa": -157.47807190511264
+      },
+      "outer_log2_terms": {
+        "main": -144.20565248941045,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -565.3926696862504
+      }
+    },
+    {
+      "N": 41,
+      "security_bits": 174.85403295294253,
+      "log2_advantage_bound": -142.85403295294253,
+      "samples": 658496,
+      "renyi_loss_bits": 13.300124791033065,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -186.64244799538193,
+        "q_delta": -185.6,
+        "two_cpa": -157.44244799538194
+      },
+      "outer_log2_terms": {
+        "main": -143.85403295301842,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -565.3205199004946
+      }
+    },
+    {
+      "N": 42,
+      "security_bits": 174.50327018448397,
+      "log2_advantage_bound": -142.50327018448397,
+      "samples": 674176,
+      "renyi_loss_bits": 13.61682520640901,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -186.60768257722123,
+        "q_delta": -185.6,
+        "two_cpa": -157.40768257722124
+      },
+      "outer_log2_terms": {
+        "main": -143.50327018454348,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -565.2501305726032
+      }
+    },
+    {
+      "N": 43,
+      "security_bits": 174.15332385988242,
+      "log2_advantage_bound": -142.15332385988242,
+      "samples": 689856,
+      "renyi_loss_bits": 13.933525621784954,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -186.5737352452979,
+        "q_delta": -185.6,
+        "two_cpa": -157.37373524529792
+      },
+      "outer_log2_terms": {
+        "main": -143.15332385992912,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -565.1814178225192
+      }
+    },
+    {
+      "N": 44,
+      "security_bits": 173.80415643654885,
+      "log2_advantage_bound": -141.80415643654885,
+      "samples": 705536,
+      "renyi_loss_bits": 14.2502260371609,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -186.5405683813627,
+        "q_delta": -185.6,
+        "two_cpa": -157.34056838136271
+      },
+      "outer_log2_terms": {
+        "main": -142.80415643658552,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -565.1143036266606
+      }
+    },
+    {
+      "N": 45,
+      "security_bits": 173.4557329032875,
+      "log2_advantage_bound": -141.4557329032875,
+      "samples": 721216,
+      "renyi_loss_bits": 14.566926452536844,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -186.50814690367034,
+        "q_delta": -185.6,
+        "two_cpa": -157.30814690367032
+      },
+      "outer_log2_terms": {
+        "main": -142.4557329033163,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -565.048715285033
+      }
+    },
+    {
+      "N": 46,
+      "security_bits": 173.10802055770952,
+      "log2_advantage_bound": -141.10802055770952,
+      "samples": 736896,
+      "renyi_loss_bits": 14.883626867912792,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -186.47643804394298,
+        "q_delta": -185.6,
+        "two_cpa": -157.276438043943
+      },
+      "outer_log2_terms": {
+        "main": -142.10802055773215,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -564.9845849476133
+      }
+    },
+    {
+      "N": 47,
+      "security_bits": 172.76098880758664,
+      "log2_advantage_bound": -140.76098880758664,
+      "samples": 752576,
+      "renyi_loss_bits": 15.200327283288736,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -186.44541114832236,
+        "q_delta": -185.6,
+        "two_cpa": -157.24541114832238
+      },
+      "outer_log2_terms": {
+        "main": -141.76098880760443,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -564.9218491922653
+      }
+    },
+    {
+      "N": 48,
+      "security_bits": 172.41460899311977,
+      "log2_advantage_bound": -140.41460899311977,
+      "samples": 768256,
+      "renyi_loss_bits": 15.517027698664682,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -186.41503749927884,
+        "q_delta": -185.6,
+        "two_cpa": -157.21503749927885
+      },
+      "outer_log2_terms": {
+        "main": -141.41460899313375,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -564.8604486476012
+      }
+    },
+    {
+      "N": 49,
+      "security_bits": 172.06885422753427,
+      "log2_advantage_bound": -140.06885422753427,
+      "samples": 783936,
+      "renyi_loss_bits": 15.833728114040627,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -186.3852901558848,
+        "q_delta": -185.6,
+        "two_cpa": -157.1852901558848
+      },
+      "outer_log2_terms": {
+        "main": -141.06885422754527,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -564.8003276551636
+      }
+    },
+    {
+      "N": 50,
+      "security_bits": 171.7236992537807,
+      "log2_advantage_bound": -139.7236992537807,
+      "samples": 799616,
+      "renyi_loss_bits": 16.15042852941657,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -186.35614381022526,
+        "q_delta": -185.6,
+        "two_cpa": -157.15614381022527
+      },
+      "outer_log2_terms": {
+        "main": -140.72369925378936,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -564.7414339661101
+      }
+    },
+    {
+      "N": 51,
+      "security_bits": 171.37912031542572,
+      "log2_advantage_bound": -139.37912031542572,
+      "samples": 815296,
+      "renyi_loss_bits": 16.467128944792517,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -186.3275746580285,
+        "q_delta": -185.6,
+        "two_cpa": -157.12757465802852
+      },
+      "outer_log2_terms": {
+        "main": -140.37912031543254,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -564.6837184682538
+      }
+    },
+    {
+      "N": 52,
+      "security_bits": 171.03509504008076,
+      "log2_advantage_bound": -139.03509504008076,
+      "samples": 830976,
+      "renyi_loss_bits": 16.78382936016846,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -186.2995602818589,
+        "q_delta": -185.6,
+        "two_cpa": -157.0995602818589
+      },
+      "outer_log2_terms": {
+        "main": -140.03509504008613,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -564.6271349398874
+      }
+    },
+    {
+      "N": 53,
+      "security_bits": 170.691602333935,
+      "log2_advantage_bound": -138.691602333935,
+      "samples": 846656,
+      "renyi_loss_bits": 17.10052977554441,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -186.2720795454368,
+        "q_delta": -185.6,
+        "two_cpa": -157.07207954543682
+      },
+      "outer_log2_terms": {
+        "main": -139.69160233393924,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -564.5716398272957
+      }
+    },
+    {
+      "N": 54,
+      "security_bits": 170.34862228614622,
+      "log2_advantage_bound": -138.34862228614622,
+      "samples": 862336,
+      "renyi_loss_bits": 17.417230190920353,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -186.24511249783654,
+        "q_delta": -185.6,
+        "two_cpa": -157.04511249783656
+      },
+      "outer_log2_terms": {
+        "main": -139.34862228614958,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -564.5171920432733
+      }
+    },
+    {
+      "N": 55,
+      "security_bits": 170.00613608200527,
+      "log2_advantage_bound": -138.00613608200527,
+      "samples": 878016,
+      "renyi_loss_bits": 17.733930606296298,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -186.21864028647533,
+        "q_delta": -185.6,
+        "two_cpa": -157.01864028647535
+      },
+      "outer_log2_terms": {
+        "main": -139.0061360820079,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -564.4637527843119
+      }
+    },
+    {
+      "N": 56,
+      "security_bits": 169.6641259239246,
+      "log2_advantage_bound": -137.6641259239246,
+      "samples": 893696,
+      "renyi_loss_bits": 18.050631021672242,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -186.1926450779424,
+        "q_delta": -185.6,
+        "two_cpa": -156.9926450779424
+      },
+      "outer_log2_terms": {
+        "main": -138.66412592392666,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -564.4112853644177
+      }
+    },
+    {
+      "N": 57,
+      "security_bits": 169.32257495941988,
+      "log2_advantage_bound": -137.32257495941988,
+      "samples": 909376,
+      "renyi_loss_bits": 18.367331437048186,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -186.16710998583525,
+        "q_delta": -185.6,
+        "two_cpa": -156.96710998583526
+      },
+      "outer_log2_terms": {
+        "main": -138.32257495942153,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -564.3597550637776
+      }
+    },
+    {
+      "N": 58,
+      "security_bits": 168.98146721535565,
+      "log2_advantage_bound": -136.98146721535565,
+      "samples": 925056,
+      "renyi_loss_bits": 18.684031852424134,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -186.14201900487242,
+        "q_delta": -185.6,
+        "two_cpa": -156.94201900487244
+      },
+      "outer_log2_terms": {
+        "main": -137.98146721535696,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -564.3091289907077
+      }
+    },
+    {
+      "N": 59,
+      "security_bits": 168.64078753781118,
+      "log2_advantage_bound": -136.64078753781118,
+      "samples": 940736,
+      "renyi_loss_bits": 19.00073226780008,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -186.11735695063817,
+        "q_delta": -185.6,
+        "two_cpa": -156.91735695063818
+      },
+      "outer_log2_terms": {
+        "main": -137.6407875378122,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -564.2593759555106
+      }
+    },
+    {
+      "N": 60,
+      "security_bits": 168.30052153700072,
+      "log2_advantage_bound": -136.30052153700072,
+      "samples": 956416,
+      "renyi_loss_bits": 19.317432683176023,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -186.09310940439147,
+        "q_delta": -185.6,
+        "two_cpa": -156.8931094043915
+      },
+      "outer_log2_terms": {
+        "main": -137.30052153700152,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -564.2104663550297
+      }
+    },
+    {
+      "N": 61,
+      "security_bits": 167.96065553674634,
+      "log2_advantage_bound": -135.96065553674634,
+      "samples": 972096,
+      "renyi_loss_bits": 19.63413309855197,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -186.06926266243713,
+        "q_delta": -185.6,
+        "two_cpa": -156.8692626624371
+      },
+      "outer_log2_terms": {
+        "main": -136.96065553674697,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -564.1623720668285
+      }
+    },
+    {
+      "N": 62,
+      "security_bits": 167.6211765280596,
+      "log2_advantage_bound": -135.6211765280596,
+      "samples": 987776,
+      "renyi_loss_bits": 19.950833513927915,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -186.04580368961314,
+        "q_delta": -185.6,
+        "two_cpa": -156.84580368961315
+      },
+      "outer_log2_terms": {
+        "main": -136.62117652806012,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -564.1150663520502
+      }
+    },
+    {
+      "N": 63,
+      "security_bits": 167.2820721264362,
+      "log2_advantage_bound": -135.2820721264362,
+      "samples": 1003456,
+      "renyi_loss_bits": 20.26753392930386,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -186.0227200765001,
+        "q_delta": -185.6,
+        "two_cpa": -156.8227200765001
+      },
+      "outer_log2_terms": {
+        "main": -136.2820721264366,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -564.0685237661132
+      }
+    },
+    {
+      "N": 64,
+      "security_bits": 166.94333053251472,
+      "log2_advantage_bound": -134.94333053251472,
+      "samples": 1019136,
+      "renyi_loss_bits": 20.584234344679803,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -186.0,
+        "q_delta": -185.6,
+        "two_cpa": -156.8
+      },
+      "outer_log2_terms": {
+        "main": -135.94333053251503,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -564.0227200765
+      }
+    },
+    {
+      "N": 65,
+      "security_bits": 166.60494049578497,
+      "log2_advantage_bound": -134.60494049578497,
+      "samples": 1034816,
+      "renyi_loss_bits": 20.900934760055748,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.97763218697153,
+        "q_delta": -185.6,
+        "two_cpa": -156.77763218697157
+      },
+      "outer_log2_terms": {
+        "main": -135.60494049578523,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -563.9776321869715
+      }
+    },
+    {
+      "N": 66,
+      "security_bits": 166.26689128106696,
+      "log2_advantage_bound": -134.26689128106696,
+      "samples": 1050496,
+      "renyi_loss_bits": 21.217635175431695,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.95560588064154,
+        "q_delta": -185.6,
+        "two_cpa": -156.75560588064155
+      },
+      "outer_log2_terms": {
+        "main": -135.26689128106716,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -563.933238067613
+      }
+    },
+    {
+      "N": 67,
+      "security_bits": 165.92917263751087,
+      "log2_advantage_bound": -133.92917263751087,
+      "samples": 1066176,
+      "renyi_loss_bits": 21.53433559080764,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.93391080954223,
+        "q_delta": -185.6,
+        "two_cpa": -156.73391080954224
+      },
+      "outer_log2_terms": {
+        "main": -134.92917263751102,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -563.8895166901838
+      }
+    },
+    {
+      "N": 68,
+      "security_bits": 165.59177476989308,
+      "log2_advantage_bound": -133.59177476989308,
+      "samples": 1081856,
+      "renyi_loss_bits": 21.851036006183588,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.91253715874967,
+        "q_delta": -185.6,
+        "two_cpa": -156.71253715874968
+      },
+      "outer_log2_terms": {
+        "main": -134.5917747698932,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -563.8464479682918
+      }
+    },
+    {
+      "N": 69,
+      "security_bits": 165.25468831200806,
+      "log2_advantage_bound": -133.25468831200806,
+      "samples": 1097536,
+      "renyi_loss_bits": 22.167736421559532,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.89147554322184,
+        "q_delta": -185.6,
+        "two_cpa": -156.69147554322183
+      },
+      "outer_log2_terms": {
+        "main": -134.25468831200814,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -563.8040127019715
+      }
+    },
+    {
+      "N": 70,
+      "security_bits": 164.9179043019746,
+      "log2_advantage_bound": -132.9179043019746,
+      "samples": 1113216,
+      "renyi_loss_bits": 22.484436836935476,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.87071698305505,
+        "q_delta": -185.6,
+        "two_cpa": -156.67071698305506
+      },
+      "outer_log2_terms": {
+        "main": -133.9179043019747,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -563.7621925262769
+      }
+    },
+    {
+      "N": 71,
+      "security_bits": 164.58141415929336,
+      "log2_advantage_bound": -132.58141415929336,
+      "samples": 1128896,
+      "renyi_loss_bits": 22.80113725231142,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.8502528804953,
+        "q_delta": -185.6,
+        "two_cpa": -156.65025288049532
+      },
+      "outer_log2_terms": {
+        "main": -133.58141415929342,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -563.7209698635504
+      }
+    },
+    {
+      "N": 72,
+      "security_bits": 164.2452096635091,
+      "log2_advantage_bound": -132.2452096635091,
+      "samples": 1144576,
+      "renyi_loss_bits": 23.117837667687365,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.83007499855768,
+        "q_delta": -185.6,
+        "two_cpa": -156.6300749985577
+      },
+      "outer_log2_terms": {
+        "main": -133.24520966350914,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -563.680327879053
+      }
+    },
+    {
+      "N": 73,
+      "security_bits": 163.90928293434467,
+      "log2_advantage_bound": -131.90928293434467,
+      "samples": 1160256,
+      "renyi_loss_bits": 23.43453808306331,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.81017544111998,
+        "q_delta": -185.6,
+        "two_cpa": -156.61017544112
+      },
+      "outer_log2_terms": {
+        "main": -132.9092829343447,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -563.6402504396776
+      }
+    },
+    {
+      "N": 74,
+      "security_bits": 163.57362641318645,
+      "log2_advantage_bound": -131.57362641318645,
+      "samples": 1175936,
+      "renyi_loss_bits": 23.75123849843926,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.79054663437105,
+        "q_delta": -185.6,
+        "two_cpa": -156.59054663437107
+      },
+      "outer_log2_terms": {
+        "main": -132.57362641318647,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -563.600722075491
+      }
+    },
+    {
+      "N": 75,
+      "security_bits": 163.23823284581252,
+      "log2_advantage_bound": -131.23823284581252,
+      "samples": 1191616,
+      "renyi_loss_bits": 24.067938913815205,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.77118130950413,
+        "q_delta": -185.6,
+        "two_cpa": -156.57118130950414
+      },
+      "outer_log2_terms": {
+        "main": -132.23823284581255,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -563.5617279438752
+      }
+    },
+    {
+      "N": 76,
+      "security_bits": 162.90309526626484,
+      "log2_advantage_bound": -130.90309526626484,
+      "samples": 1207296,
+      "renyi_loss_bits": 24.38463932919115,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.75207248655641,
+        "q_delta": -185.6,
+        "two_cpa": -156.55207248655643
+      },
+      "outer_log2_terms": {
+        "main": -131.90309526626487,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -563.5232537960605
+      }
+    },
+    {
+      "N": 77,
+      "security_bits": 162.56820698177538,
+      "log2_advantage_bound": -130.56820698177538,
+      "samples": 1222976,
+      "renyi_loss_bits": 24.701339744567093,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.7332134593051,
+        "q_delta": -185.6,
+        "two_cpa": -156.5332134593051
+      },
+      "outer_log2_terms": {
+        "main": -131.5682069817754,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -563.4852859458615
+      }
+    },
+    {
+      "N": 78,
+      "security_bits": 162.2335615586653,
+      "log2_advantage_bound": -130.2335615586653,
+      "samples": 1238656,
+      "renyi_loss_bits": 25.018040159943038,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.71459778113774,
+        "q_delta": -185.6,
+        "two_cpa": -156.51459778113775
+      },
+      "outer_log2_terms": {
+        "main": -131.2335615586653,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -563.4478112404429
+      }
+    },
+    {
+      "N": 79,
+      "security_bits": 161.89915280914173,
+      "log2_advantage_bound": -129.89915280914173,
+      "samples": 1254336,
+      "renyi_loss_bits": 25.334740575318985,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.6962192518229,
+        "q_delta": -185.6,
+        "two_cpa": -156.4962192518229
+      },
+      "outer_log2_terms": {
+        "main": -130.89915280914173,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -563.4108170329606
+      }
+    },
+    {
+      "N": 80,
+      "security_bits": 161.56497477892557,
+      "log2_advantage_bound": -129.56497477892557,
+      "samples": 1270016,
+      "renyi_loss_bits": 25.65144099069493,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.67807190511263,
+        "q_delta": -185.6,
+        "two_cpa": -156.47807190511264
+      },
+      "outer_log2_terms": {
+        "main": -130.56497477892557,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -563.3742911569356
+      }
+    },
+    {
+      "N": 81,
+      "security_bits": 161.23102173564757,
+      "log2_advantage_bound": -129.23102173564757,
+      "samples": 1285696,
+      "renyi_loss_bits": 25.968141406070874,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.66014999711538,
+        "q_delta": -185.6,
+        "two_cpa": -156.4601499971154
+      },
+      "outer_log2_terms": {
+        "main": -130.23102173564757,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -563.338221902228
+      }
+    },
+    {
+      "N": 82,
+      "security_bits": 160.8972881579563,
+      "log2_advantage_bound": -128.8972881579563,
+      "samples": 1301376,
+      "renyi_loss_bits": 26.28484182144682,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.64244799538193,
+        "q_delta": -185.6,
+        "two_cpa": -156.44244799538194
+      },
+      "outer_log2_terms": {
+        "main": -129.8972881579563,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -563.3025979924973
+      }
+    },
+    {
+      "N": 83,
+      "security_bits": 160.56376872528622,
+      "log2_advantage_bound": -128.56376872528622,
+      "samples": 1317056,
+      "renyi_loss_bits": 26.601542236822763,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.62496056865308,
+        "q_delta": -185.6,
+        "two_cpa": -156.4249605686531
+      },
+      "outer_log2_terms": {
+        "main": -129.56376872528622,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -563.267408564035
+      }
+    },
+    {
+      "N": 84,
+      "security_bits": 160.230458308239,
+      "log2_advantage_bound": -128.230458308239,
+      "samples": 1332736,
+      "renyi_loss_bits": 26.91824265219871,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.60768257722123,
+        "q_delta": -185.6,
+        "two_cpa": -156.40768257722124
+      },
+      "outer_log2_terms": {
+        "main": -129.230458308239,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -563.2326431458744
+      }
+    },
+    {
+      "N": 85,
+      "security_bits": 159.89735195953332,
+      "log2_advantage_bound": -127.89735195953332,
+      "samples": 1348416,
+      "renyi_loss_bits": 27.234943067574655,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.5906090638623,
+        "q_delta": -185.6,
+        "two_cpa": -156.3906090638623
+      },
+      "outer_log2_terms": {
+        "main": -128.89735195953332,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -563.1982916410835
+      }
+    },
+    {
+      "N": 86,
+      "security_bits": 159.56444490548438,
+      "log2_advantage_bound": -127.56444490548438,
+      "samples": 1364096,
+      "renyi_loss_bits": 27.5516434829506,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.5737352452979,
+        "q_delta": -185.6,
+        "two_cpa": -156.37373524529792
+      },
+      "outer_log2_terms": {
+        "main": -128.56444490548438,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -563.1643443091602
+      }
+    },
+    {
+      "N": 87,
+      "security_bits": 159.231732537976,
+      "log2_advantage_bound": -127.231732537976,
+      "samples": 1379776,
+      "renyi_loss_bits": 27.868343898326543,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.55705650415126,
+        "q_delta": -185.6,
+        "two_cpa": -156.35705650415127
+      },
+      "outer_log2_terms": {
+        "main": -128.231732537976,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -563.1307917494491
+      }
+    },
+    {
+      "N": 88,
+      "security_bits": 158.89921040689126,
+      "log2_advantage_bound": -126.89921040689124,
+      "samples": 1395456,
+      "renyi_loss_bits": 28.185044313702488,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.5405683813627,
+        "q_delta": -185.6,
+        "two_cpa": -156.34056838136271
+      },
+      "outer_log2_terms": {
+        "main": -127.89921040689124,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -563.0976248855139
+      }
+    },
+    {
+      "N": 89,
+      "security_bits": 158.5668742129708,
+      "log2_advantage_bound": -126.5668742129708,
+      "samples": 1411136,
+      "renyi_loss_bits": 28.50174472907844,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.5242665690336,
+        "q_delta": -185.6,
+        "two_cpa": -156.32426656903363
+      },
+      "outer_log2_terms": {
+        "main": -127.5668742129708,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -563.0648349503963
+      }
+    },
+    {
+      "N": 90,
+      "security_bits": 158.2347198010704,
+      "log2_advantage_bound": -126.23471980107041,
+      "samples": 1426816,
+      "renyi_loss_bits": 28.818445144454383,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.50814690367034,
+        "q_delta": -185.6,
+        "two_cpa": -156.30814690367032
+      },
+      "outer_log2_terms": {
+        "main": -127.23471980107041,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -563.0324134727039
+      }
+    },
+    {
+      "N": 91,
+      "security_bits": 157.9027431537911,
+      "log2_advantage_bound": -125.90274315379109,
+      "samples": 1442496,
+      "renyi_loss_bits": 29.135145559830327,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.4922053598013,
+        "q_delta": -185.6,
+        "two_cpa": -156.2922053598013
+      },
+      "outer_log2_terms": {
+        "main": -126.90274315379109,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -563.0003522634717
+      }
+    },
+    {
+      "N": 92,
+      "security_bits": 157.57094038545674,
+      "log2_advantage_bound": -125.57094038545674,
+      "samples": 1458176,
+      "renyi_loss_bits": 29.451845975206272,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.47643804394298,
+        "q_delta": -185.6,
+        "two_cpa": -156.276438043943
+      },
+      "outer_log2_terms": {
+        "main": -126.57094038545674,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -562.9686434037443
+      }
+    },
+    {
+      "N": 93,
+      "security_bits": 157.23930773641803,
+      "log2_advantage_bound": -125.23930773641801,
+      "samples": 1473856,
+      "renyi_loss_bits": 29.768546390582216,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.46084118889198,
+        "q_delta": -185.6,
+        "two_cpa": -156.260841188892
+      },
+      "outer_log2_terms": {
+        "main": -126.23930773641801,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -562.937279232835
+      }
+    },
+    {
+      "N": 94,
+      "security_bits": 156.9078415676605,
+      "log2_advantage_bound": -124.90784156766051,
+      "samples": 1489536,
+      "renyi_loss_bits": 30.085246805958164,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.44541114832236,
+        "q_delta": -185.6,
+        "two_cpa": -156.24541114832238
+      },
+      "outer_log2_terms": {
+        "main": -125.90784156766051,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -562.9062523372144
+      }
+    },
+    {
+      "N": 95,
+      "security_bits": 156.57653835569826,
+      "log2_advantage_bound": -124.57653835569826,
+      "samples": 1505216,
+      "renyi_loss_bits": 30.401947221334108,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.43014439166905,
+        "q_delta": -185.6,
+        "two_cpa": -156.23014439166906
+      },
+      "outer_log2_terms": {
+        "main": -125.57653835569826,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -562.8755555399914
+      }
+    },
+    {
+      "N": 96,
+      "security_bits": 156.24539468773474,
+      "log2_advantage_bound": -124.24539468773474,
+      "samples": 1520896,
+      "renyi_loss_bits": 30.718647636710052,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.41503749927884,
+        "q_delta": -185.6,
+        "two_cpa": -156.21503749927885
+      },
+      "outer_log2_terms": {
+        "main": -125.24539468773474,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -562.8451818909479
+      }
+    },
+    {
+      "N": 97,
+      "security_bits": 155.91440725707423,
+      "log2_advantage_bound": -123.91440725707425,
+      "samples": 1536576,
+      "renyi_loss_bits": 31.035348052085997,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.40008715781286,
+        "q_delta": -185.6,
+        "two_cpa": -156.20008715781287
+      },
+      "outer_log2_terms": {
+        "main": -124.91440725707425,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -562.8151246570917
+      }
+    },
+    {
+      "N": 98,
+      "security_bits": 155.58357285876917,
+      "log2_advantage_bound": -123.58357285876916,
+      "samples": 1552256,
+      "renyi_loss_bits": 31.35204846746194,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.3852901558848,
+        "q_delta": -185.6,
+        "two_cpa": -156.1852901558848
+      },
+      "outer_log2_terms": {
+        "main": -124.58357285876916,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -562.7853773136976
+      }
+    },
+    {
+      "N": 99,
+      "security_bits": 155.25288838548767,
+      "log2_advantage_bound": -123.25288838548768,
+      "samples": 1567936,
+      "renyi_loss_bits": 31.66874888283789,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.37064337992038,
+        "q_delta": -185.6,
+        "two_cpa": -156.1706433799204
+      },
+      "outer_log2_terms": {
+        "main": -124.25288838548768,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -562.7559335358052
+      }
+    },
+    {
+      "N": 100,
+      "security_bits": 154.9223508235894,
+      "log2_advantage_bound": -122.92235082358938,
+      "samples": 1583616,
+      "renyi_loss_bits": 31.985449298213833,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.35614381022526,
+        "q_delta": -185.6,
+        "two_cpa": -156.15614381022527
+      },
+      "outer_log2_terms": {
+        "main": -123.92235082358938,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -562.7267871901456
+      }
+    },
+    {
+      "N": 101,
+      "security_bits": 154.59195724939627,
+      "log2_advantage_bound": -122.59195724939626,
+      "samples": 1599296,
+      "renyi_loss_bits": 32.30214971358978,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.3417885172482,
+        "q_delta": -185.6,
+        "two_cpa": -156.14178851724822
+      },
+      "outer_log2_terms": {
+        "main": -123.59195724939626,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -562.6979323274735
+      }
+    },
+    {
+      "N": 102,
+      "security_bits": 154.26170482564706,
+      "log2_advantage_bound": -122.26170482564706,
+      "samples": 1614976,
+      "renyi_loss_bits": 32.618850128965725,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.3275746580285,
+        "q_delta": -185.6,
+        "two_cpa": -156.12757465802852
+      },
+      "outer_log2_terms": {
+        "main": -123.26170482564706,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -562.6693631752767
+      }
+    },
+    {
+      "N": 103,
+      "security_bits": 153.93159079812483,
+      "log2_advantage_bound": -121.93159079812483,
+      "samples": 1630656,
+      "renyi_loss_bits": 32.935550544341666,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.31349947281677,
+        "q_delta": -185.6,
+        "two_cpa": -156.11349947281678
+      },
+      "outer_log2_terms": {
+        "main": -122.93159079812483,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -562.6410741308453
+      }
+    },
+    {
+      "N": 104,
+      "security_bits": 153.60161249244752,
+      "log2_advantage_bound": -121.60161249244752,
+      "samples": 1646336,
+      "renyi_loss_bits": 33.252250959717614,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.2995602818589,
+        "q_delta": -185.6,
+        "two_cpa": -156.0995602818589
+      },
+      "outer_log2_terms": {
+        "main": -122.60161249244752,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -562.6130597546758
+      }
+    },
+    {
+      "N": 105,
+      "security_bits": 153.2717673110117,
+      "log2_advantage_bound": -121.2717673110117,
+      "samples": 1662016,
+      "renyi_loss_bits": 33.56895137509356,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.28575448233389,
+        "q_delta": -185.6,
+        "two_cpa": -156.0857544823339
+      },
+      "outer_log2_terms": {
+        "main": -122.2717673110117,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -562.5853147641928
+      }
+    },
+    {
+      "N": 106,
+      "security_bits": 152.9420527300817,
+      "log2_advantage_bound": -120.94205273008171,
+      "samples": 1677696,
+      "renyi_loss_bits": 33.8856517904695,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.2720795454368,
+        "q_delta": -185.6,
+        "two_cpa": -156.07207954543682
+      },
+      "outer_log2_terms": {
+        "main": -121.94205273008171,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -562.5578340277707
+      }
+    },
+    {
+      "N": 107,
+      "security_bits": 152.61246629701492,
+      "log2_advantage_bound": -120.61246629701492,
+      "samples": 1693376,
+      "renyi_loss_bits": 34.20235220584545,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.25853301359885,
+        "q_delta": -185.6,
+        "two_cpa": -156.05853301359886
+      },
+      "outer_log2_terms": {
+        "main": -121.61246629701492,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -562.5306125590357
+      }
+    },
+    {
+      "N": 108,
+      "security_bits": 152.2830056276166,
+      "log2_advantage_bound": -120.28300562761662,
+      "samples": 1709056,
+      "renyi_loss_bits": 34.5190526212214,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.24511249783654,
+        "q_delta": -185.6,
+        "two_cpa": -156.04511249783656
+      },
+      "outer_log2_terms": {
+        "main": -121.28300562761662,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -562.5036455114354
+      }
+    },
+    {
+      "N": 109,
+      "security_bits": 151.9536684036161,
+      "log2_advantage_bound": -119.95366840361609,
+      "samples": 1724736,
+      "renyi_loss_bits": 34.835753036597346,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.23181567522306,
+        "q_delta": -185.6,
+        "two_cpa": -156.03181567522307
+      },
+      "outer_log2_terms": {
+        "main": -120.95366840361609,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -562.4769281730596
+      }
+    },
+    {
+      "N": 110,
+      "security_bits": 151.6244523702588,
+      "log2_advantage_bound": -119.62445237025881,
+      "samples": 1740416,
+      "renyi_loss_bits": 35.15245345197329,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.21864028647533,
+        "q_delta": -185.6,
+        "two_cpa": -156.01864028647535
+      },
+      "outer_log2_terms": {
+        "main": -120.62445237025881,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -562.4504559616985
+      }
+    },
+    {
+      "N": 111,
+      "security_bits": 151.29535533400676,
+      "log2_advantage_bound": -119.29535533400676,
+      "samples": 1756096,
+      "renyi_loss_bits": 35.469153867349235,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.2055841336499,
+        "q_delta": -185.6,
+        "two_cpa": -156.0055841336499
+      },
+      "outer_log2_terms": {
+        "main": -120.29535533400676,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -562.4242244201253
+      }
+    },
+    {
+      "N": 112,
+      "security_bits": 150.9663751603425,
+      "log2_advantage_bound": -118.9663751603425,
+      "samples": 1771776,
+      "renyi_loss_bits": 35.785854282725175,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.1926450779424,
+        "q_delta": -185.6,
+        "two_cpa": -155.9926450779424
+      },
+      "outer_log2_terms": {
+        "main": -119.9663751603425,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -562.3982292115923
+      }
+    },
+    {
+      "N": 113,
+      "security_bits": 150.63750977167044,
+      "log2_advantage_bound": -118.63750977167044,
+      "samples": 1787456,
+      "renyi_loss_bits": 36.10255469810112,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.17982103758482,
+        "q_delta": -185.6,
+        "two_cpa": -155.97982103758483
+      },
+      "outer_log2_terms": {
+        "main": -119.63750977167044,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -562.3724661155272
+      }
+    },
+    {
+      "N": 114,
+      "security_bits": 150.30875714531072,
+      "log2_advantage_bound": -118.30875714531072,
+      "samples": 1803136,
+      "renyi_loss_bits": 36.41925511347707,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.16710998583525,
+        "q_delta": -185.6,
+        "two_cpa": -155.96710998583526
+      },
+      "outer_log2_terms": {
+        "main": -119.30875714531072,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -562.3469310234201
+      }
+    },
+    {
+      "N": 115,
+      "security_bits": 149.98011531158096,
+      "log2_advantage_bound": -117.98011531158095,
+      "samples": 1818816,
+      "renyi_loss_bits": 36.73595552885301,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.15450994905564,
+        "q_delta": -185.6,
+        "two_cpa": -155.95450994905565
+      },
+      "outer_log2_terms": {
+        "main": -118.98011531158095,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -562.3216199348909
+      }
+    },
+    {
+      "N": 116,
+      "security_bits": 149.65158235196026,
+      "log2_advantage_bound": -117.65158235196024,
+      "samples": 1834496,
+      "renyi_loss_bits": 37.05265594422896,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.14201900487242,
+        "q_delta": -185.6,
+        "two_cpa": -155.94201900487244
+      },
+      "outer_log2_terms": {
+        "main": -118.65158235196024,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -562.296528953928
+      }
+    },
+    {
+      "N": 117,
+      "security_bits": 149.3231563973332,
+      "log2_advantage_bound": -117.3231563973332,
+      "samples": 1850176,
+      "renyi_loss_bits": 37.3693563596049,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.1296352804166,
+        "q_delta": -185.6,
+        "two_cpa": -155.92963528041662
+      },
+      "outer_log2_terms": {
+        "main": -118.3231563973332,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -562.2716542852891
+      }
+    },
+    {
+      "N": 118,
+      "security_bits": 148.99483562630724,
+      "log2_advantage_bound": -116.99483562630724,
+      "samples": 1865856,
+      "renyi_loss_bits": 37.68605677498085,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.11735695063817,
+        "q_delta": -185.6,
+        "two_cpa": -155.91735695063818
+      },
+      "outer_log2_terms": {
+        "main": -117.99483562630724,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -562.2469922310547
+      }
+    },
+    {
+      "N": 119,
+      "security_bits": 148.66661826360234,
+      "log2_advantage_bound": -116.66661826360234,
+      "samples": 1881536,
+      "renyi_loss_bits": 38.002757190356796,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.10518223669206,
+        "q_delta": -185.6,
+        "two_cpa": -155.90518223669207
+      },
+      "outer_log2_terms": {
+        "main": -117.66661826360234,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -562.2225391873302
+      }
+    },
+    {
+      "N": 120,
+      "security_bits": 148.33850257850705,
+      "log2_advantage_bound": -116.33850257850705,
+      "samples": 1897216,
+      "renyi_loss_bits": 38.31945760573274,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.09310940439147,
+        "q_delta": -185.6,
+        "two_cpa": -155.8931094043915
+      },
+      "outer_log2_terms": {
+        "main": -117.33850257850705,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -562.1982916410835
+      }
+    },
+    {
+      "N": 121,
+      "security_bits": 148.0104868833991,
+      "log2_advantage_bound": -116.0104868833991,
+      "samples": 1912896,
+      "renyi_loss_bits": 38.636158021108685,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.0811367627254,
+        "q_delta": -185.6,
+        "two_cpa": -155.88113676272542
+      },
+      "outer_log2_terms": {
+        "main": -117.0104868833991,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -562.1742461671168
+      }
+    },
+    {
+      "N": 122,
+      "security_bits": 147.6825695323268,
+      "log2_advantage_bound": -115.68256953232678,
+      "samples": 1928576,
+      "renyi_loss_bits": 38.952858436484625,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.06926266243713,
+        "q_delta": -185.6,
+        "two_cpa": -155.8692626624371
+      },
+      "outer_log2_terms": {
+        "main": -116.68256953232678,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -562.1503994251625
+      }
+    },
+    {
+      "N": 123,
+      "security_bits": 147.35474891964844,
+      "log2_advantage_bound": -115.35474891964846,
+      "samples": 1944256,
+      "renyi_loss_bits": 39.26955885186058,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.05748549466077,
+        "q_delta": -185.6,
+        "two_cpa": -155.85748549466078
+      },
+      "outer_log2_terms": {
+        "main": -116.35474891964846,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -562.1267481570978
+      }
+    },
+    {
+      "N": 124,
+      "security_bits": 147.02702347872645,
+      "log2_advantage_bound": -115.02702347872645,
+      "samples": 1959936,
+      "renyi_loss_bits": 39.58625926723652,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.04580368961314,
+        "q_delta": -185.6,
+        "two_cpa": -155.84580368961315
+      },
+      "outer_log2_terms": {
+        "main": -116.02702347872645,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -562.1032891842739
+      }
+    },
+    {
+      "N": 125,
+      "security_bits": 146.69939168067435,
+      "log2_advantage_bound": -114.69939168067435,
+      "samples": 1975616,
+      "renyi_loss_bits": 39.90295968261247,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.03421571533792,
+        "q_delta": -185.6,
+        "two_cpa": -155.83421571533793
+      },
+      "outer_log2_terms": {
+        "main": -115.69939168067435,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -562.080019404951
+      }
+    },
+    {
+      "N": 126,
+      "security_bits": 146.37185203315354,
+      "log2_advantage_bound": -114.37185203315354,
+      "samples": 1991296,
+      "renyi_loss_bits": 40.21966009798841,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.0227200765001,
+        "q_delta": -185.6,
+        "two_cpa": -155.8227200765001
+      },
+      "outer_log2_terms": {
+        "main": -115.37185203315354,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -562.056935791838
+      }
+    },
+    {
+      "N": 127,
+      "security_bits": 146.0444030792175,
+      "log2_advantage_bound": -114.04440307921747,
+      "samples": 2006976,
+      "renyi_loss_bits": 40.53636051336436,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.01131531322784,
+        "q_delta": -185.6,
+        "two_cpa": -155.81131531322785
+      },
+      "outer_log2_terms": {
+        "main": -115.04440307921747,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -562.0340353897279
+      }
+    },
+    {
+      "N": 128,
+      "security_bits": 145.71704339620146,
+      "log2_advantage_bound": -113.71704339620145,
+      "samples": 2022656,
+      "renyi_loss_bits": 40.853060928740305,
+      "inner_log2_terms": {
+        "six_q_over_M": -175.41503749927884,
+        "statistical": -512,
+        "N_over_M": -185.0,
+        "q_delta": -185.6,
+        "two_cpa": -155.8
+      },
+      "outer_log2_terms": {
+        "main": -114.71704339620145,
+        "dP": -199.6,
+        "qH_over_M": -178,
+        "message_salt_collision": -562.0113153132279
+      }
+    }
+  ]
+}
