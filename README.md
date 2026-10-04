@@ -190,3 +190,16 @@ versions are recorded in `THIRD_PARTY.md`.
 
 A version-specific citation and DOI will be added here when the first Zenodo
 release is published.
+
+## Runtime benchmark
+
+The scalar reference benchmark is provided in
+[`runtime_benchmark`](runtime_benchmark). Under WSL Ubuntu, run:
+
+```bash
+cd runtime_benchmark
+chmod +x run_full_benchmark.sh
+./run_full_benchmark.sh
+```
+
+The generated results are written to `runtime_benchmark/results/`.

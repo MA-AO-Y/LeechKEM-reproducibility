@@ -1,0 +1,12 @@
+timestamp_utc=2026-10-04T09:57:01Z
+kernel=Linux LAPTOP-SFVJQHM5 6.6.87.2-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
+cpu=Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz
+logical_cpus=12
+compiler=gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
+leech_cflags=-O3 -std=c11 -Wall -Wextra -Wpedantic
+frodo_cflags=-O3 -std=gnu11 -Wall -Wextra -Wpedantic -D_REFERENCE_ -D_SHAKE128_FOR_A_
+samples=31
+independent_case_pool_size=31
+minimum_batch_ms=20
+full_cycle=KeyGen + Encaps + valid Decaps (fresh randomness per iteration)
+rng=deterministic benchmark stream (OS entropy acquisition excluded)

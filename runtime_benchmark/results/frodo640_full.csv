@@ -1,0 +1,6 @@
+scheme,implementation,operation,median_ms,p95_ms,min_ms,iterations_per_sample,samples,case_pool_size,pk_bytes,ct_bytes,sk_bytes
+FrodoKEM-640-SHAKE,official-scalar-reference,keygen,5.316792,6.054291,5.210567,4,31,31,9616,9752,19888
+FrodoKEM-640-SHAKE,official-scalar-reference,encaps,9.188061,9.508910,9.120586,4,31,31,9616,9752,19888
+FrodoKEM-640-SHAKE,official-scalar-reference,decaps_valid,9.017226,9.283675,8.960236,4,31,31,9616,9752,19888
+FrodoKEM-640-SHAKE,official-scalar-reference,decaps_invalid,9.013451,9.229451,8.951776,4,31,31,9616,9752,19888
+FrodoKEM-640-SHAKE,official-scalar-reference,full_cycle,23.453813,24.323113,23.288813,1,31,31,9616,9752,19888

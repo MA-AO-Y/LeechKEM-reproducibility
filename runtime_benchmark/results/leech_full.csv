@@ -1,0 +1,16 @@
+scheme,implementation,operation,median_ms,p95_ms,min_ms,iterations_per_sample,samples,case_pool_size,pk_bytes,ct_bytes,sk_bytes
+LeechKEM-1,scalar-reference,keygen,33.759495,41.127871,33.158798,1,31,31,47536,2066,89793
+LeechKEM-1,scalar-reference,encaps,13.878255,14.313854,13.770500,2,31,31,47536,2066,89793
+LeechKEM-1,scalar-reference,decaps_valid,14.280246,17.700557,14.127195,2,31,31,47536,2066,89793
+LeechKEM-1,scalar-reference,decaps_invalid,14.205011,14.748947,14.112861,2,31,31,47536,2066,89793
+LeechKEM-1,scalar-reference,full_cycle,61.408823,63.700115,60.978624,1,31,31,47536,2066,89793
+LeechKEM-2,scalar-reference,keygen,54.569212,60.119322,54.153612,1,31,31,57952,4978,112507
+LeechKEM-2,scalar-reference,encaps,23.670352,25.561650,23.398053,1,31,31,57952,4978,112507
+LeechKEM-2,scalar-reference,decaps_valid,24.170449,25.140047,23.994149,1,31,31,57952,4978,112507
+LeechKEM-2,scalar-reference,decaps_invalid,24.232049,25.307046,24.034549,1,31,31,57952,4978,112507
+LeechKEM-2,scalar-reference,full_cycle,102.495068,109.023045,101.782970,1,31,31,57952,4978,112507
+LeechKEM-3,scalar-reference,keygen,114.375496,134.014894,111.004109,1,31,31,83656,7136,162409
+LeechKEM-3,scalar-reference,encaps,47.738372,50.527972,47.154473,1,31,31,83656,7136,162409
+LeechKEM-3,scalar-reference,decaps_valid,48.449310,51.570956,47.909909,1,31,31,83656,7136,162409
+LeechKEM-3,scalar-reference,decaps_invalid,48.436006,50.308506,48.015108,1,31,31,83656,7136,162409
+LeechKEM-3,scalar-reference,full_cycle,209.627583,228.977009,205.766882,1,31,31,83656,7136,162409

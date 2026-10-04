@@ -2,3 +2,6 @@ __pycache__/
 *.py[cod]
 data/regenerated/
 results_regenerated/
+runtime_benchmark/build/
+*.o
+*:Zone.Identifier

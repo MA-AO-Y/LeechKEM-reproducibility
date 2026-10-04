@@ -1,0 +1,20 @@
+We implemented LeechKEM in portable scalar C and compiled it with GCC using
+\texttt{-O3}.  The benchmark covers complete KeyGen, Encaps, and Decaps
+executions.  In particular, Decaps includes PKE decryption, Leech-lattice
+decoding, seed derivation, deterministic re-encryption, both candidate-key
+hashes, ciphertext comparison, and constant-time key selection.  We report
+both valid- and invalid-ciphertext paths.  For a same-platform baseline, we
+compiled the official scalar reference implementation of the SHAKE variants
+of FrodoKEM with the same optimization level and with AES/AVX2 acceleration
+disabled.  OS entropy acquisition was excluded from all measurements by using
+a deterministic benchmark-only byte stream.  For each scheme, we prepared 31
+independent $(\mathsf{pk},\mathsf{sk},c,K)$ cases outside the timed region.
+The valid- and invalid-ciphertext Decaps measurements rotate through these
+cases; each invalid ciphertext is obtained by flipping one bit of its
+corresponding valid ciphertext.  We also report a full-cycle measurement in
+which every timed invocation performs fresh KeyGen, Encaps, and valid Decaps.
+Each operation was timed in 31 batches; the iteration count of a batch was
+calibrated to last at least 20 ms.  We report the median and 95th percentile
+across batches.  All independently prepared cases passed the shared-secret
+consistency test, and the invalid-ciphertext tests exercised the
+implicit-rejection path.
